@@ -14,6 +14,10 @@
     --max-width-wide: 900px;
 }
 
+html {
+    font-size: 118.75%; /* 19px base — improves readability site-wide */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +27,7 @@
 body {
     font-family: var(--font-sans);
     font-size: 1rem;
-    line-height: 1.65;
+    line-height: 1.7;
     color: var(--color-text);
     background: var(--color-bg);
 }
@@ -82,7 +86,7 @@ body {
 .nav-links a {
     color: var(--color-muted);
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
     transition: color 0.2s;
 }
@@ -96,7 +100,7 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 0.35rem;
-    font-size: 0.85rem;
+    font-size: 0.9375rem;
     margin-left: 0.25rem;
 }
 
@@ -402,7 +406,7 @@ body {
 
 .hub-tab {
     font-family: var(--font-sans);
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
     padding: 0.75rem 1.25rem;
     background: none;
@@ -495,8 +499,8 @@ body {
 .cv-publication-list li {
     padding: 0.75rem 0 0.75rem 2.25rem;
     border-bottom: 1px solid var(--color-border);
-    font-size: 0.9rem;
-    line-height: 1.6;
+    font-size: 1rem;
+    line-height: 1.65;
     position: relative;
 }
 
@@ -516,7 +520,7 @@ body {
     position: absolute;
     left: 0;
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.875rem;
     color: var(--color-muted);
 }
 
@@ -527,7 +531,7 @@ body {
     position: absolute;
     left: 0;
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.875rem;
     color: var(--color-muted);
 }
 
@@ -538,7 +542,7 @@ body {
     position: absolute;
     left: 0;
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.875rem;
     color: var(--color-muted);
 }
 
@@ -549,7 +553,7 @@ body {
     position: absolute;
     left: 0;
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.875rem;
     color: var(--color-muted);
 }
 
@@ -560,7 +564,7 @@ body {
     position: absolute;
     left: 0;
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.875rem;
     color: var(--color-muted);
 }
 
@@ -571,7 +575,7 @@ body {
     position: absolute;
     left: 0;
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.875rem;
     color: var(--color-muted);
 }
 
@@ -582,7 +586,7 @@ body {
     position: absolute;
     left: 0;
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.875rem;
     color: var(--color-muted);
 }
 
@@ -623,7 +627,7 @@ body {
     list-style: disc;
     margin: 0.65rem 0 0 1.25rem;
     padding: 0;
-    font-size: 0.85rem;
+    font-size: 0.9375rem;
     color: var(--color-muted);
     line-height: 1.55;
 }
@@ -643,7 +647,7 @@ body {
 }
 
 .publication-tags span {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     padding: 0.15rem 0.5rem;
     border-radius: 3px;
     border: 1px solid var(--color-border);
@@ -676,7 +680,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
-    font-size: 0.85rem;
+    font-size: 0.9375rem;
 }
 
 .cv-sort-controls label {
@@ -690,7 +694,7 @@ body {
     padding: 0.35rem 0.5rem;
     border: 1px solid var(--color-border);
     border-radius: 3px;
-    font-size: 0.85rem;
+    font-size: 0.9375rem;
 }
 
 #reset-sort {
@@ -700,7 +704,7 @@ body {
     border: 1px solid var(--color-accent);
     border-radius: 3px;
     cursor: pointer;
-    font-size: 0.85rem;
+    font-size: 0.9375rem;
     margin-left: auto;
 }
 
@@ -775,6 +779,6 @@ body {
 
     .hub-tab {
         padding: 0.6rem 0.85rem;
-        font-size: 0.85rem;
+        font-size: 0.9375rem;
     }
 }
