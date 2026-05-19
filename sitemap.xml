@@ -3,30 +3,30 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://ktdi-aoringo.github.io/</loc>
-        <lastmod>2026-05-14</lastmod>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://ktdi-aoringo.github.io/" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://ktdi-aoringo.github.io/index-en.html" />
+        <lastmod>2026-05-19</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ktdi-aoringo.github.io/" />
+        <xhtml:link rel="alternate" hreflang="ja" href="https://ktdi-aoringo.github.io/index-ja.html" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://ktdi-aoringo.github.io/" />
     </url>
     <url>
-        <loc>https://ktdi-aoringo.github.io/index-en.html</loc>
-        <lastmod>2026-05-14</lastmod>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://ktdi-aoringo.github.io/" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://ktdi-aoringo.github.io/index-en.html" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://ktdi-aoringo.github.io/" />
+        <loc>https://ktdi-aoringo.github.io/index-ja.html</loc>
+        <lastmod>2026-05-19</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ktdi-aoringo.github.io/index-ja.html" />
+        <xhtml:link rel="alternate" hreflang="ja" href="https://ktdi-aoringo.github.io/index.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://ktdi-aoringo.github.io/index-ja.html" />
     </url>
     <url>
-        <loc>https://ktdi-aoringo.github.io/cv.html</loc>
-        <lastmod>2026-05-14</lastmod>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://ktdi-aoringo.github.io/cv.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://ktdi-aoringo.github.io/cv-en.html" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://ktdi-aoringo.github.io/cv.html" />
+        <loc>https://ktdi-aoringo.github.io/research.html</loc>
+        <lastmod>2026-05-19</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ktdi-aoringo.github.io/research.html" />
+        <xhtml:link rel="alternate" hreflang="ja" href="https://ktdi-aoringo.github.io/research-ja.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://ktdi-aoringo.github.io/research.html" />
     </url>
     <url>
-        <loc>https://ktdi-aoringo.github.io/cv-en.html</loc>
-        <lastmod>2026-05-14</lastmod>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://ktdi-aoringo.github.io/cv.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://ktdi-aoringo.github.io/cv-en.html" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://ktdi-aoringo.github.io/cv.html" />
+        <loc>https://ktdi-aoringo.github.io/research-ja.html</loc>
+        <lastmod>2026-05-19</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ktdi-aoringo.github.io/research-ja.html" />
+        <xhtml:link rel="alternate" hreflang="ja" href="https://ktdi-aoringo.github.io/research.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://ktdi-aoringo.github.io/research-ja.html" />
     </url>
 </urlset>
