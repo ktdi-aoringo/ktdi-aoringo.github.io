@@ -279,6 +279,14 @@ document.addEventListener('DOMContentLoaded', () => {
             best = Math.max(best, toSortKey(+m[3], month, +m[2]));
         }
 
+        const monthYear = text.matchAll(
+            /\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})\b/gi
+        );
+        for (const m of monthYear) {
+            const month = MONTH_MAP[m[1].toLowerCase()];
+            best = Math.max(best, toSortKey(+m[2], month, 1));
+        }
+
         const dayRangeMonthYear = text.matchAll(
             /\b(\d{1,2})-\d{1,2},?\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4})\b/gi
         );
