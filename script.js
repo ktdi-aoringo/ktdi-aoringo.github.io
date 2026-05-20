@@ -247,15 +247,66 @@ document.addEventListener('DOMContentLoaded', () => {
     // Populate coauthors select
     populateCoauthorsSelect(frequentCoauthors);
 
-    // Extract year from publication text
-    function extractYear(text) {
-        // Look for 4-digit years, prioritizing those at the end or followed by period/comma
-        const yearMatches = text.match(/\b(\d{4})\b/g);
-        if (!yearMatches) return 0;
+    const MONTH_MAP = {
+        january: 1, february: 2, march: 3, april: 4, may: 5, june: 6,
+        july: 7, august: 8, september: 9, october: 10, november: 11, december: 12
+    };
 
-        // Convert to numbers and find the most recent year
-        const years = yearMatches.map(Number).filter(year => year >= 1900 && year <= 2030);
-        return years.length > 0 ? Math.max(...years) : 0;
+    function toSortKey(year, month, day) {
+        return year * 10000 + month * 100 + day;
+    }
+
+    // Numeric date key (YYYYMMDD) for chronological sort; uses latest date in the entry
+    function extractSortDate(text) {
+        let best = 0;
+
+        const jaRange = text.matchAll(/(\d{4})年(\d{1,2})月(\d{1,2})-\d{1,2}日?/g);
+        for (const m of jaRange) {
+            best = Math.max(best, toSortKey(+m[1], +m[2], +m[3]));
+        }
+
+        const ja = text.matchAll(/(\d{4})年(\d{1,2})月(?:(\d{1,2})日)?/g);
+        for (const m of ja) {
+            const day = m[3] ? +m[3] : 1;
+            best = Math.max(best, toSortKey(+m[1], +m[2], day));
+        }
+
+        const monthDayYear = text.matchAll(
+            /\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(?:-\d{1,2})?,?\s+(\d{4})\b/gi
+        );
+        for (const m of monthDayYear) {
+            const month = MONTH_MAP[m[1].toLowerCase()];
+            best = Math.max(best, toSortKey(+m[3], month, +m[2]));
+        }
+
+        const dayRangeMonthYear = text.matchAll(
+            /\b(\d{1,2})-\d{1,2},?\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4})\b/gi
+        );
+        for (const m of dayRangeMonthYear) {
+            const month = MONTH_MAP[m[2].toLowerCase()];
+            best = Math.max(best, toSortKey(+m[3], month, +m[1]));
+        }
+
+        const dayRangeMonthYear2 = text.matchAll(
+            /\b(\d{1,2})-\d{1,2}\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})\b/gi
+        );
+        for (const m of dayRangeMonthYear2) {
+            const month = MONTH_MAP[m[2].toLowerCase()];
+            best = Math.max(best, toSortKey(+m[3], month, +m[1]));
+        }
+
+        if (best > 0) return best;
+
+        const yearMatches = text.match(/\b(19\d{2}|20\d{2})\b/g);
+        if (!yearMatches) return 0;
+        const years = yearMatches.map(Number).filter(year => year >= 1900 && year <= 2035);
+        const year = years.length > 0 ? Math.max(...years) : 0;
+        return year ? toSortKey(year, 6, 1) : 0;
+    }
+
+    function extractYear(text) {
+        const key = extractSortDate(text);
+        return key ? Math.floor(key / 10000) : 0;
     }
 
     // Extract author from publication text
@@ -450,17 +501,13 @@ document.addEventListener('DOMContentLoaded', () => {
             switch (sortBy) {
                 case 'year-desc':
                     sortedItems = items.sort((a, b) => {
-                        const yearA = extractYear(a.textContent);
-                        const yearB = extractYear(b.textContent);
-                        return yearB - yearA;
+                        return extractSortDate(b.textContent) - extractSortDate(a.textContent);
                     });
                     break;
 
                 case 'year-asc':
                     sortedItems = items.sort((a, b) => {
-                        const yearA = extractYear(a.textContent);
-                        const yearB = extractYear(b.textContent);
-                        return yearA - yearB;
+                        return extractSortDate(a.textContent) - extractSortDate(b.textContent);
                     });
                     break;
 
