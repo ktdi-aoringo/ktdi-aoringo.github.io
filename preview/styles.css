@@ -176,6 +176,25 @@ body {
     max-width: 42em;
 }
 
+.profile-header .bio p {
+    margin-bottom: 0.75rem;
+}
+
+.profile-header .bio p:last-of-type {
+    margin-bottom: 0;
+}
+
+.profile-header .bio ul {
+    margin: 0.5rem 0 0 1.25rem;
+    padding: 0;
+    list-style: disc;
+}
+
+.profile-header .bio ul + p,
+.profile-header .bio p + ul {
+    margin-top: 0.75rem;
+}
+
 .section-block {
     margin-bottom: 3rem;
 }
