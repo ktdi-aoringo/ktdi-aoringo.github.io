@@ -1,141 +1,354 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayato Kitadai</title>
-    <meta name="description" content="PhD student at the University of Tokyo. Game theory, market design, experimental economics, and large language models.">
-    <meta name="author" content="Ayato Kitadai">
-    <link rel="canonical" href="https://ktdi-aoringo.github.io/">
-    <link rel="alternate" hreflang="ja" href="https://ktdi-aoringo.github.io/index-ja.html">
-    <link rel="alternate" hreflang="en" href="https://ktdi-aoringo.github.io/">
-    <link rel="alternate" hreflang="x-default" href="https://ktdi-aoringo.github.io/">
-    <meta property="og:title" content="Ayato Kitadai">
-    <meta property="og:description" content="PhD student at the University of Tokyo. Game theory, market design, experimental economics, and large language models.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ktdi-aoringo.github.io/">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:locale:alternate" content="ja_JP">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Ayato Kitadai">
-    <meta name="twitter:description" content="PhD student at the University of Tokyo. Game theory, market design, experimental economics, and large language models.">
+    <title>Ayato Kitadai — Kitadai Lab</title>
+    <meta name="description" content="PhD researcher at the University of Tokyo. Game theory, market design, experimental economics, and large language models.">
 
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        // Pre-paint theme: avoid a flash by reading saved theme before render.
+    // Pre-paint theme: read saved theme OR OS preference before render.
+    (function () {
+        try {
+            var t = localStorage.getItem('ktdi-theme');
+            if (t === 'light' || t === 'dark') {
+                document.documentElement.setAttribute('data-theme', t);
+                return;
+            }
+        } catch (e) {}
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+        }
+    })();
+    </script>
+</head>
 <body>
 
-    <header class="site-header">
-        <div class="nav-container">
-            <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="research.html">Research</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="lang-switch" role="group" aria-label="Language">
-                    <a href="index.html" class="lang-switch__link is-active" hreflang="en" lang="en">EN</a>
-                    <span class="lang-switch__sep" aria-hidden="true">/</span>
-                    <a href="index-ja.html" class="lang-switch__link" hreflang="ja" lang="ja">JA</a>
-                </li>
-            </ul>
+<header class="site-header">
+    <div class="nav-container">
+        <a href="#top" class="brand">Ayato Kitadai</a>
+
+        <button class="icon-btn menu-toggle" type="button" aria-label="Menu" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="4" y1="7"  x2="20" y2="7"></line>
+                <line x1="4" y1="12" x2="20" y2="12"></line>
+                <line x1="4" y1="17" x2="20" y2="17"></line>
+            </svg>
+        </button>
+
+        <nav class="nav-links" aria-label="Primary">
+            <a href="#about">About</a>
+            <a href="#approach">Approach</a>
+            <a href="research.html">Works</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-controls">
+            <button class="lang-btn" data-lang-btn="en" type="button" aria-label="English">EN</button>
+            <button class="lang-btn" data-lang-btn="ja" type="button" aria-label="日本語">JA</button>
+            <button class="icon-btn theme-toggle" type="button" aria-label="Toggle theme">
+                <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+                </svg>
+                <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"></path>
+                </svg>
+            </button>
         </div>
-    </header>
+    </div>
+</header>
 
-    <main class="page-home">
-        <div class="container container--narrow">
-            <header class="profile-header">
-                <h1>Ayato Kitadai</h1>
-                <p class="affiliation">The University of Tokyo, Graduate School of Engineering<br>Department of Technology Management for Innovation · PhD Student (2nd year)</p>
-                <div class="bio">
-                    <p>I study the design of systems and services in the AI era, with particular emphasis on human decision-making. I value practical, engineering-oriented perspectives while also pursuing scientific rigor.</p>
-                    <p>My methodology combines the following approaches.</p>
-                    <p>This enables me to iterate between system design and impact evaluation, producing research that bridges scientific and practical value.</p>
-                    <ul>
-                        <li>Mathematical modeling and analysis using game theory</li>
-                        <li>Data analysis and multi-agent simulation</li>
-                        <li>Experimental economics</li>
-                    </ul>
-                </div>
-            </header>
+<main id="top">
 
-            <section class="section-block" id="interests">
-                <h2>Research Interests</h2>
-                <p class="research-interests">Game Theory, Market Design, Experimental Economics, Large Language Models, Mechanism Design, Service Engineering</p>
-            </section>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+        <div class="hero-text">
+            <span class="kicker">PhD Researcher · The University of Tokyo</span>
 
-            <section class="section-block" id="education">
-                <h2>Education</h2>
-                <div class="cv-item">
-                    <div class="cv-year">April 2025 – Present</div>
-                    <div class="cv-details">
-                        <h3>PhD Program</h3>
-                        <p>The University of Tokyo, Graduate School of Engineering, Department of Technology Management for Innovation</p>
-                    </div>
-                </div>
-                <div class="cv-item">
-                    <div class="cv-year">April 2023 – March 2025</div>
-                    <div class="cv-details">
-                        <h3>Master's Program</h3>
-                        <p>The University of Tokyo, Graduate School of Engineering, Department of Technology Management for Innovation</p>
-                    </div>
-                </div>
-                <div class="cv-item">
-                    <div class="cv-year">April 2019 – March 2023</div>
-                    <div class="cv-details">
-                        <h3>Bachelor's Program</h3>
-                        <p>The University of Tokyo, Faculty of Engineering, Department of Systems Innovation</p>
-                    </div>
-                </div>
-            </section>
+            <h1 class="display-name">Ayato Kitadai<span class="ja">北代 絢大</span></h1>
 
-            <section class="section-block" id="career">
-                <h2>Career &amp; Support</h2>
-                <div class="cv-item">
-                    <div class="cv-year">April 2025 – Present</div>
-                    <div class="cv-details">
-                        <h3>JSPS Research Fellowship for Young Scientists (DC1)</h3>
-                    </div>
-                </div>
-                <div class="cv-item">
-                    <div class="cv-year">September 2023 – March 2025</div>
-                    <div class="cv-details">
-                        <h3>WINGS GLAFS Excellent Research Assistant</h3>
-                    </div>
-                </div>
-            </section>
+            <p class="lede"
+               data-en="I design systems and services for the AI era — combining game theory, multi-agent simulation, and experimental economics to study how people make decisions."
+               data-ja="ゲーム理論・マルチエージェントシミュレーション・実験経済学を組み合わせ、AI 時代の制度・サービスを設計しています。人間の意思決定にとくに着目した研究を行っています。">
+                I design systems and services for the AI era — combining game theory, multi-agent simulation, and experimental economics to study how people make decisions.
+            </p>
 
-            <section class="section-block" id="publications">
-                <h2>Selected Works</h2>
-                <ul class="highlight-list">
-                    <li><strong>A. Kitadai</strong> et al.; "Can AI with High Reasoning Ability Replicate Human-like Decision Making in Economic Experiments?" <em>Group Decision and Negotiation</em>, 34(6), 1303-1326, 2025.</li>
-                    <li><strong>A. Kitadai</strong>, Y. Tsurusaki, Y. Fukasawa and N. Nishino; "Toward a Novel Methodology in Economic Experiments: Simulation of the Ultimatum Game with Large Language Models," IEEE Big Data, 2023.</li>
-                    <li><strong>A. Kitadai</strong> et al.; "Examining the Feasibility of Large Language Models as Survey Respondents," IEEE Big Data, 2024.</li>
-                </ul>
-                <a href="research.html#papers" class="section-link">View all publications →</a>
-            </section>
+            <p class="affiliation"
+               data-en="Department of Technology Management for Innovation · 2nd-year PhD"
+               data-ja="工学系研究科 技術経営戦略学専攻 ／ 博士課程 2 年">
+                Department of Technology Management for Innovation · 2nd-year PhD
+            </p>
 
-            <section class="section-block" id="contact">
-                <h2>Contact</h2>
-                <p class="section-lead">If you have questions about my research or would like to discuss collaboration, please feel free to contact me using the information below.</p>
-                <ul class="contact-list">
-                    <li><strong>Email:</strong> a.kitadai [at] css.t.u-tokyo.ac.jp</li>
-                    <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=wX2VHU4AAAAJ&hl=en" target="_blank" rel="noopener">Profile</a></li>
-                    <li><strong>Researchmap:</strong> <a href="https://researchmap.jp/a.ktdi" target="_blank" rel="noopener">Profile</a></li>
-                </ul>
-            </section>
+            <div class="hero-actions">
+                <a class="btn primary" href="research.html">
+                    <span>View publications</span>
+                    <span class="arrow" aria-hidden="true">→</span>
+                </a>
+                <a class="btn ghost" href="#contact">
+                    <span>Get in touch</span>
+                </a>
+            </div>
         </div>
-    </main>
 
-    <footer class="site-footer">
-        <p>&copy; 2026 Ayato Kitadai</p>
-    </footer>
+        <figure class="hero-portrait">
+            <img src="assets/profile.jpg" alt="Portrait of Ayato Kitadai" loading="eager">
+        </figure>
+    </section>
 
-    <script src="script.js"></script>
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section" id="about">
+        <div class="section-head">
+            <span class="section-num">01 — </span>
+            <h2 class="section-title">About</h2>
+        </div>
+
+        <div class="grid-2">
+            <div>
+                <p class="section-lead"
+                   data-en="I value practical, engineering-oriented perspectives while pursuing scientific rigor — iterating between system design and impact evaluation."
+                   data-ja="実践的・工学的な観点を重視しつつ、科学としての厳密性も追求します。制度設計と効果検証のサイクルを回すことが研究の基本姿勢です。">
+                    I value practical, engineering-oriented perspectives while pursuing scientific rigor — iterating between system design and impact evaluation.
+                </p>
+
+                <div class="interest-label">Keywords</div>
+                <ul class="interest-list">
+                    <li class="interest-row"><span class="interest-name" data-en="Game Theory"             data-ja="ゲーム理論">Game Theory</span></li>
+                    <li class="interest-row"><span class="interest-name" data-en="Market Design"           data-ja="マーケットデザイン">Market Design</span></li>
+                    <li class="interest-row"><span class="interest-name" data-en="Experimental Economics" data-ja="実験経済学">Experimental Economics</span></li>
+                    <li class="interest-row"><span class="interest-name" data-en="Large Language Models"  data-ja="大規模言語モデル">Large Language Models</span></li>
+                    <li class="interest-row"><span class="interest-name" data-en="Mechanism Design"       data-ja="メカニズムデザイン">Mechanism Design</span></li>
+                    <li class="interest-row"><span class="interest-name" data-en="Service Engineering"    data-ja="サービス工学">Service Engineering</span></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="section-title" style="font-size: 1.1rem; margin-bottom: 0.85rem;">Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year" data-en="2025 — Present" data-ja="2025年 — 現在">2025 — Present</div>
+                        <div>
+                            <div class="timeline-title" data-en="PhD Program"      data-ja="博士課程">PhD Program</div>
+                            <div class="timeline-detail" data-en="The University of Tokyo · Tech. Management for Innovation"
+                                                         data-ja="東京大学 大学院工学系研究科 技術経営戦略学専攻">The University of Tokyo · Tech. Management for Innovation</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year" data-en="2023 — 2025" data-ja="2023年 — 2025年">2023 — 2025</div>
+                        <div>
+                            <div class="timeline-title" data-en="Master's Program" data-ja="修士課程">Master's Program</div>
+                            <div class="timeline-detail" data-en="The University of Tokyo · Tech. Management for Innovation"
+                                                         data-ja="東京大学 大学院工学系研究科 技術経営戦略学専攻">The University of Tokyo · Tech. Management for Innovation</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year" data-en="2019 — 2023" data-ja="2019年 — 2023年">2019 — 2023</div>
+                        <div>
+                            <div class="timeline-title" data-en="Bachelor's Program" data-ja="学士課程">Bachelor's Program</div>
+                            <div class="timeline-detail" data-en="The University of Tokyo · Systems Innovation"
+                                                         data-ja="東京大学 工学部 システム創成学科">The University of Tokyo · Systems Innovation</div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="section-title" style="font-size: 1.1rem; margin: 2rem 0 0.85rem;">Career &amp; Support</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year" data-en="2025 — Present" data-ja="2025年 — 現在">2025 — Present</div>
+                        <div>
+                            <div class="timeline-title"
+                                 data-en="JSPS Research Fellowship for Young Scientists (DC1)"
+                                 data-ja="日本学術振興会 特別研究員（DC1）">JSPS Research Fellowship for Young Scientists (DC1)</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year" data-en="2023 — 2025" data-ja="2023年 — 2025年">2023 — 2025</div>
+                        <div>
+                            <div class="timeline-title"
+                                 data-en="WINGS GLAFS Excellent Research Assistant"
+                                 data-ja="WINGS GLAFS 卓越RA">WINGS GLAFS Excellent Research Assistant</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== APPROACH ===================== -->
+    <section class="section" id="approach">
+        <div class="section-head">
+            <span class="section-num">02 — </span>
+            <h2 class="section-title">Approach</h2>
+        </div>
+
+        <p class="section-lead"
+           data-en="My methodology combines three pillars — moving freely between theoretical modeling and real-world impact."
+           data-ja="数理モデル、マルチエージェントシミュレーション、実験経済学。この3つを軸に、理論と現場の往復を可能にしています。">
+            My methodology combines three pillars — moving freely between theoretical modeling and real-world impact.
+        </p>
+
+        <ol class="approach-list">
+            <li class="approach-row">
+                <span class="approach-marker" aria-hidden="true"></span>
+                <div class="approach-content">
+                    <h3 class="approach-title"
+                        data-en="Game-theoretic modeling"
+                        data-ja="ゲーム理論によるモデリング">Game-theoretic modeling</h3>
+                    <p class="approach-desc"
+                       data-en="Mathematical analysis of strategic interaction in markets and matching mechanisms."
+                       data-ja="市場やマッチング機構における戦略的相互作用を、数理的に解析します。">
+                        Mathematical analysis of strategic interaction in markets and matching mechanisms.
+                    </p>
+                </div>
+            </li>
+            <li class="approach-row">
+                <span class="approach-marker" aria-hidden="true"></span>
+                <div class="approach-content">
+                    <h3 class="approach-title"
+                        data-en="Multi-agent simulation"
+                        data-ja="マルチエージェントシミュレーション">Multi-agent simulation</h3>
+                    <p class="approach-desc"
+                       data-en="Data analysis and LLM-driven agents that approximate human decision-making in economic experiments."
+                       data-ja="データ分析と、LLMエージェントによって経済実験における人間の意思決定を再現するアプローチです。">
+                        Data analysis and LLM-driven agents that approximate human decision-making in economic experiments.
+                    </p>
+                </div>
+            </li>
+            <li class="approach-row">
+                <span class="approach-marker" aria-hidden="true"></span>
+                <div class="approach-content">
+                    <h3 class="approach-title"
+                        data-en="Experimental economics"
+                        data-ja="実験経済学">Experimental economics</h3>
+                    <p class="approach-desc"
+                       data-en="Controlled human-subject studies to validate mechanism designs in the lab and in the wild."
+                       data-ja="設計したメカニズムを、実験室とフィールドの両方で実際の人を対象に検証します。">
+                        Controlled human-subject studies to validate mechanism designs in the lab and in the wild.
+                    </p>
+                </div>
+            </li>
+        </ol>
+    </section>
+
+    <!-- ===================== PUBLICATIONS ===================== -->
+    <section class="section" id="publications">
+        <div class="section-head">
+            <span class="section-num">03 — </span>
+            <h2 class="section-title">Selected works</h2>
+        </div>
+
+        <ul class="pub-list">
+            <li class="pub-item">
+                <span class="pub-num">J01</span>
+                <div>
+                    <div class="pub-body">
+                        <strong>A. Kitadai</strong>, S.D.R. Lugo, Y. Tsurusaki, Y. Fukasawa and N. Nishino; “Can AI with High Reasoning Ability Replicate Human-like Decision Making in Economic Experiments?” <em>Group Decision and Negotiation</em>, 34(6), 1303–1326, 2025.
+                    </div>
+                    <div class="pub-tags">
+                        <span class="pub-tag">Peer Reviewed</span>
+                        <span class="pub-tag first">First Author</span>
+                    </div>
+                </div>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-num">P02</span>
+                <div>
+                    <div class="pub-body">
+                        <strong>A. Kitadai</strong>, K. Ogawa and N. Nishino; “Examining the Feasibility of Large Language Models as Survey Respondents,” IEEE Big Data, pp. 3858–3864, 2024.
+                    </div>
+                    <div class="pub-tags">
+                        <span class="pub-tag">Peer Reviewed</span>
+                        <span class="pub-tag first">First Author</span>
+                    </div>
+                </div>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-num">P03</span>
+                <div>
+                    <div class="pub-body">
+                        <strong>A. Kitadai</strong>, Y. Tsurusaki, Y. Fukasawa and N. Nishino; “Toward a Novel Methodology in Economic Experiments: Simulation of the Ultimatum Game with Large Language Models,” IEEE Big Data, pp. 3168–3175, 2023.
+                    </div>
+                    <div class="pub-tags">
+                        <span class="pub-tag">Peer Reviewed</span>
+                        <span class="pub-tag first">First Author</span>
+                    </div>
+                </div>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-num">W04</span>
+                <div>
+                    <div class="pub-body">
+                        <strong>A. Kitadai</strong> et al.; “‘Sail Fast, Then Wait’ in First-come, First-served Port Queues: Information Sharing for Sustainable Shipping,” arXiv:2602.01958, 2026.
+                    </div>
+                    <div class="pub-tags">
+                        <span class="pub-tag first">First Author</span>
+                        <span class="pub-tag">Working Paper</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <a class="see-all" href="research.html">
+            <span>View all publications</span>
+            <span class="arrow" aria-hidden="true">→</span>
+        </a>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section" id="contact">
+        <div class="section-head">
+            <span class="section-num">04 — </span>
+            <h2 class="section-title">Contact</h2>
+        </div>
+
+        <p class="section-lead"
+           data-en="If you'd like to discuss research or collaboration, please get in touch."
+           data-ja="研究内容に関するお問い合わせや、コラボレーションのお誘い等ございましたら、お気軽にご連絡ください。">
+            If you'd like to discuss research or collaboration, please get in touch.
+        </p>
+
+        <div class="contact">
+            <div class="contact-card">
+                <div class="contact-label">Email</div>
+                <div class="contact-value">a.kitadai [at] css.t.u-tokyo.ac.jp</div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-label">Google Scholar</div>
+                <div class="contact-value">
+                    <a href="https://scholar.google.com/citations?user=wX2VHU4AAAAJ&amp;hl=en" target="_blank" rel="noopener">scholar.google.com</a>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-label">Researchmap</div>
+                <div class="contact-value">
+                    <a href="https://researchmap.jp/a.ktdi" target="_blank" rel="noopener">researchmap.jp/a.ktdi</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <span class="legal">© 2026 Ayato Kitadai · 北代 絢大</span>
+    <div class="footer-links">
+        <a href="#top" data-en="Top"      data-ja="トップへ">Top</a>
+        <a href="https://github.com/ktdi-aoringo/ktdi-aoringo.github.io" target="_blank" rel="noopener">Source</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
-
 </html>
