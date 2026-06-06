@@ -73,7 +73,7 @@ export default {
       entries: [
         "Y. Hoshino, A. Kitadai and N. Nishino; “Do Matching Mechanisms Work with LLM Agents?,” arXiv:2606.03030, 2026.",
         "A. Kitadai, S. Yoshimura, T. Nakashima, N. Torpo, R. Miratsu, N. Mizutani and N. Nishino; “‘Sail Fast, Then Wait’ in First-come, First-served Port Queues: Information Sharing for Sustainable Shipping,” arXiv:2602.01958, 2026.",
-        "A. Kitadai, T. Ito, Y. Nagoh, H. Takahashi, M. Fujita, S. Lee, F. Miyahara, T. Natsume and N. Nishino; “Decision Support System for Technology Opportunity Discovery: An Application of the Schwartz Theory of Basic Values,” arXiv:2602.11855, 2026.",
+        "A. Kitadai, T. Ito, Y. Nagoh, H. Takahashi, M. Fujita, S. Lee, F. Miyahara, T. Natsume and N. Nishino; “Decision Support System for Technology Opportunity Discovery: An Application of the Schwartz Theory of Basic Values,” arXiv:2602.11855, 2026. R&R at <em>Technology in Society</em>.",
         "A. Kitadai, Y. Fukasawa and N. Nishino; “Do Rich Persona Data Improve the Calibration of LLM Agents to Human Behavior? Evidence from the Ultimatum Game.” Under review.",
         "A. Kitadai, Y. Nakamoto and N. Nishino; “Do Generative AI Chatbots Increase Dominant-Strategy Play in Matching Mechanisms?” Under review.",
         "A. Kitadai and Y. Nakamoto; “The Effect of AI-Mediated Institutional Communication on Decision-Making in a Dynamic Common Pool Resource Game.” Under review."
