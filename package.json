@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build:cv": "node scripts/build-cv.mjs"
+  }
+}
