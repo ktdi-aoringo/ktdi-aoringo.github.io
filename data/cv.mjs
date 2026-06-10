@@ -97,6 +97,18 @@ export default {
       titleJa: "国内会議発表（口頭・査読有）",
       entries: [
         {
+          en: "Y. Hoshino, A. Kitadai and N. Nishino; “Service Design for Proxy Negotiation Markets with AI Agents: Validating the Effectiveness of Matching Mechanisms,” JIMA Spring Conference 2026, Hakodate, June 2026.",
+          ja: "星野透大, 北代絢大, 西野成昭：「AIエージェントによる代理交渉市場のサービス設計：マッチングメカニズムの有効性検証」日本経営工学会2026年春季大会, 函館, 2026年6月."
+        },
+        {
+          en: "Y. Takenoya, A. Kitadai and N. Nishino; “A Screening Model of Upfront Contracts for Agents Who Ignore Convex Inequalities,” JIMA Spring Conference 2026, Hakodate, June 2026.",
+          ja: "竹ノ谷悠, 北代絢大, 西野成昭：「凸不等式を無視するエージェントに対する事前契約のスクリーニングモデル」日本経営工学会2026年春季大会, 函館, 2026年6月."
+        },
+        {
+          en: "A. Kitadai and N. Nishino; “The Effect of Introducing a Free-Dialogue Chatbot for Supporting Understanding of Matching Mechanisms on People's Decision-Making,” JIMA Spring Conference 2026, Hakodate, June 2026.",
+          ja: "北代絢大, 西野成昭：「マッチングメカニズムへの理解補助用の自由対話型チャットボット導入が人々の意思決定に与える影響」日本経営工学会2026年春季大会, 函館, 2026年6月."
+        },
+        {
           en: "A. Kitadai, Y. Nakamoto and N. Nishino; “Do Generative AI Chatbots Increase Dominant-Strategy Play in Matching Mechanisms?,” 29th Experimental Social Science Conference, Kochi, May 2026.",
           ja: "北代絢大, 中元康裕, 西野成昭：「生成AIチャットボットはマッチングメカニズムにおける支配戦略プレイを増加させるか？」第29回実験社会科学カンファレンス, 高知, 2026年5月."
         },
