@@ -1,5 +1,5 @@
 export default {
-  lastUpdated: "2026/5/30",
+  lastUpdated: "2026/6/11",
   profile: {
     nameJa: "北代絢大",
     nameEn: "Ayato Kitadai",
@@ -96,6 +96,10 @@ export default {
       titleEn: "Conference Presentations (Domestic, Oral, Peer-Reviewed)",
       titleJa: "国内会議発表（口頭・査読有）",
       entries: [
+        {
+          en: "A. Kitadai, Y. Kumagai and R. Yasunaga; “Bounded Rationality in Large Language Models: Price-Quality Heuristics and Self-Control,” JSAI 2026: The 40th Annual Conference of the Japanese Society for Artificial Intelligence, Gunma and online, June 2026.",
+          ja: "北代絢大, 熊谷雄介, 安永遼真：「大規模言語モデルにおける限定合理性：価格品質ヒューリスティックとセルフコントロール」2026年度人工知能学会全国大会（第40回）, Gメッセ群馬・オンライン, 2026年6月."
+        },
         {
           en: "Y. Hoshino, A. Kitadai and N. Nishino; “Service Design for Proxy Negotiation Markets with AI Agents: Validating the Effectiveness of Matching Mechanisms,” JIMA Spring Conference 2026, Hakodate, June 2026.",
           ja: "星野透大, 北代絢大, 西野成昭：「AIエージェントによる代理交渉市場のサービス設計：マッチングメカニズムの有効性検証」日本経営工学会2026年春季大会, 函館, 2026年6月."
