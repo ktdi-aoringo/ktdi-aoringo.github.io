@@ -93,8 +93,8 @@ export default {
       ]
     },
     {
-      titleEn: "Conference Presentations (Domestic, Oral, Peer-Reviewed)",
-      titleJa: "国内会議発表（口頭・査読有）",
+      titleEn: "Conference Presentations (Domestic, Oral)",
+      titleJa: "国内会議発表（口頭）",
       entries: [
         {
           en: "A. Kitadai, Y. Kumagai and R. Yasunaga; “Bounded Rationality in Large Language Models: Price-Quality Heuristics and Self-Control,” JSAI 2026: The 40th Annual Conference of the Japanese Society for Artificial Intelligence, Gunma and online, June 2026.",
