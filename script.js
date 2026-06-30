@@ -1,5 +1,5 @@
 // =====================================================================
-// Kitadai Lab — v2 site script
+// Ayato Kitadai — personal page script
 // • Theme: light / dark / auto, persisted to localStorage, respects OS
 // • Language: en / ja, persisted, swaps every [data-en]/[data-ja] string
 // • Mobile menu
@@ -68,9 +68,9 @@
         // Page title
         const isResearch = /research\.html/i.test(location.pathname);
         if (lang === 'ja') {
-            document.title = isResearch ? '研究業績 — 北代 絢大' : '北代 絢大 — Kitadai Lab';
+            document.title = isResearch ? '研究業績 — 北代 絢大' : '北代 絢大 — Personal Page';
         } else {
-            document.title = isResearch ? 'Research — Ayato Kitadai' : 'Ayato Kitadai — Kitadai Lab';
+            document.title = isResearch ? 'Research — Ayato Kitadai' : 'Ayato Kitadai — Personal Page';
         }
     }
 

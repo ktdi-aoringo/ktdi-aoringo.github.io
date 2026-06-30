@@ -83,6 +83,8 @@ export default {
       titleEn: "Conference Presentations (International, Oral, Peer-Reviewed)",
       titleJa: "国際会議発表（口頭・査読有）",
       entries: [
+        "A. Kitadai, S. Yoshimura, T. Nakashima, N. Torpo, R. Miratsu, N. Mizutani and N. Nishino; “‘Sail Fast, Then Wait’ in First-come, First-served Port Queues: Information Sharing for Sustainable Shipping,” GDN 2026, Katowice, Poland, June 2026.",
+        "J. Zhang, A. Kitadai and N. Nishino; “The Dynamics of Coopetition: A Biform Game Analysis of Incentive Mechanisms in DevOps,” GDN 2026, Katowice, Poland, June 2026.",
         "A. Kitadai et al.; “Information Asymmetry in FCFS Port Queues: A Game Theoretic Analysis of ‘Sail Fast, Then Wait’,” SMRC x MTEC/ICMASS 2026, Singapore, April 2026.",
         "S. Yoshimura, T. Kawasaki, A. Kitadai and N. Nishino; “Analysis of Optimal Ship Navigation in Offshore Waiting Situations,” ICServ 2025, Stockholm, December 2025.",
         "H. Cheng, S. Lee, H. Watanabe, A. Kitadai, Y. Nagoh, M. Fujita and N. Nishino; “How Can Barriers to Innovation Diffusion and Transition Be Identified from Bibliometric Data?,” R&D Management Conference 2025, July 2025.",
@@ -202,6 +204,7 @@ export default {
       titleEn: "Awards",
       titleJa: "受賞",
       entries: [
+        "2026 GDN Springer Best Student Paper Award (2026)",
         {
           en: "Head of Department Award (Academic Achievement), Dept. of Technology Management for Innovation, Graduate School of Engineering, The University of Tokyo (2025)",
           ja: "東京大学 大学院工学系研究科 技術経営戦略学専攻 学修優秀賞 (2025)"
