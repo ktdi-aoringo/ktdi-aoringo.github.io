@@ -1,5 +1,5 @@
 export default {
-  lastUpdated: "2026/6/11",
+  lastUpdated: "2026/7/1",
   profile: {
     nameJa: "北代絢大",
     nameEn: "Ayato Kitadai",
@@ -61,7 +61,7 @@ export default {
         "M. Kobayashi, A. Kitadai, U. Sato, M. Fujita and N. Nishino; “Real Traffic Analysis Around Large-Scale Shopping Mall Using Game Theory,” <em>IFIP Advances in ICT</em>, 730, 408-423, 2024.",
         "M. Fujita, Z. Cheng, S.D.R. Lugo, A. Kitadai, Y. Dai, Y. Fukasawa and N. Nishino; “Analysis of Medical Data and Machine-Learning Algorithms from the Perspective of Public-Goods Models of Data-Provision Decision Making,” <em>Procedia CIRP</em>, 126, 3-8, 2024.",
         "M. Fujita, Y. Dai, A. Kitadai, S.D.R. Lugo, Z. Cheng and N. Nishino; “Survey on Stakeholder Cooperative Behavior for Designing Voluntary Medical Data Provision Motivation Mechanisms,” <em>Procedia CIRP</em>, 126, 14-19, 2024.",
-        "A. Kitadai, S.D.R. Lugo, S. Lee, M. Fujita and N. Nishino; “Weighted Reward Allocation Mechanism for Data Collection Quality,” <em>Lecture Notes in Business Information Processing (LNBI)</em>, 478, 161-174, 2023.",
+        "A. Kitadai, S.D.R. Lugo, S. Lee, M. Fujita and N. Nishino; “Weighted Reward Allocation Mechanism for Data Collection Quality,” <em>Lecture Notes in Business Information Processing (LNBIP)</em>, 478, 161-174, 2023.",
         "A. Kitadai, Y. Tsurusaki, Y. Fukasawa and N. Nishino; “Toward a Novel Methodology in Economic Experiments: Simulation of the Ultimatum Game with Large Language Models,” <em>IEEE Big Data</em>, pp. 3168-3175, 2023.",
         "Z. Zhou, M. Kobayashi, U. Sato, K. Akashi, A. Kitadai, S. Sugihara, Y. Fukasawa, M. Fujita and N. Nishino; “Evaluating the alleviation of traffic congestion through Bus Rapid Transit using Multi-Agent Simulation,” <em>IEEE Big Data</em>, pp. 3237-3244, 2023.",
         "M. Fujita, A. Kitadai, K. Sumikura and N. Nishino; “Toward the Utilization of Artificial Intelligence in Life Sciences: A Voluntary Medical Data Provisioning Model,” <em>IEEE Big Data</em>, pp. 3250-3257, 2022."
@@ -74,6 +74,7 @@ export default {
         "Y. Hoshino, A. Kitadai and N. Nishino; “Do Matching Mechanisms Work with LLM Agents?,” arXiv:2606.03030, 2026.",
         "A. Kitadai, S. Yoshimura, T. Nakashima, N. Torpo, R. Miratsu, N. Mizutani and N. Nishino; “‘Sail Fast, Then Wait’ in First-come, First-served Port Queues: Information Sharing for Sustainable Shipping,” arXiv:2602.01958, 2026.",
         "A. Kitadai, T. Ito, Y. Nagoh, H. Takahashi, M. Fujita, S. Lee, F. Miyahara, T. Natsume and N. Nishino; “Decision Support System for Technology Opportunity Discovery: An Application of the Schwartz Theory of Basic Values,” arXiv:2602.11855, 2026. R&R at <em>Technology in Society</em>.",
+        "T. Nakashima and A. Kitadai; “Adaptation Beliefs and Defensive Over-Adaptation under Nonlinear Climate Risk.” Under review.",
         "A. Kitadai, Y. Fukasawa and N. Nishino; “Do Rich Persona Data Improve the Calibration of LLM Agents to Human Behavior? Evidence from the Ultimatum Game.” Under review.",
         "A. Kitadai, Y. Nakamoto and N. Nishino; “Do Generative AI Chatbots Increase Dominant-Strategy Play in Matching Mechanisms?” Under review.",
         "A. Kitadai and Y. Nakamoto; “The Effect of AI-Mediated Institutional Communication on Decision-Making in a Dynamic Common Pool Resource Game.” Under review."
