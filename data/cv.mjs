@@ -1,5 +1,5 @@
 export default {
-  lastUpdated: "2026/7/1",
+  lastUpdated: "2026/7/4",
   profile: {
     nameJa: "北代絢大",
     nameEn: "Ayato Kitadai",
@@ -232,6 +232,10 @@ export default {
       entries: [
         "A. Kitadai, Y. Nakamoto and N. Nishino; “Do Generative AI Chatbots Increase Dominant-Strategy Play in Matching Mechanisms?,” International Workshop on Human-AI Interaction, ISER, Osaka, March 24, 2026 (invited).",
         "Y. Hoshino, A. Kitadai and N. Nishino; “Do Matching Mechanisms Work with LLM Agents?,” International Workshop on Human-AI Interaction, ISER, Osaka, March 23, 2026.",
+        {
+          en: "Ayato Kitadai, “AI as Part of Mechanism Design: Evidence from Laboratory Experiments,” Behavioral and Experimental Economics Seminar (BEES), Waseda University, June 16, 2026.",
+          ja: "北代絢大「メカニズムデザインの一部としてのAI：実験室実験からのエビデンス」行動・実験経済学研究会（BEES）, 早稲田大学, 2026年6月16日."
+        },
         "Ayato Kitadai, “Exploring Various Methods for Generative Agents to Replicate Results in Economic Experiments of the Ultimatum Game,” HSE Comsoc seminar, DeCAn, February 12, 2026 (invited).",
         {
           en: "A. Kitadai, Y. Nakamoto and N. Nishino; “Do Generative AI Chatbots Increase Dominant-Strategy Play in Matching Mechanisms?,” Kansai University RISS Workshop, February 28, 2026.",
