@@ -24,7 +24,9 @@ const labels = {
     suffix: "en",
     updated: "Last updated",
     education: "Education",
+    grants: "Grants",
     support: "Fellowships and Support",
+    teaching: "Teaching Experience",
     qualifications: "Qualifications",
     fields: "Research Areas",
     name: cv.profile.nameEn,
@@ -35,7 +37,9 @@ const labels = {
     suffix: "ja",
     updated: "最終更新",
     education: "学歴",
+    grants: "研究費・フェローシップ",
     support: "経済的支援等",
+    teaching: "教育経験",
     qualifications: "資格",
     fields: "研究分野",
     name: `${cv.profile.nameJa} (${cv.profile.nameEn})`,
@@ -238,7 +242,9 @@ const renderHtml = (lang) => {
 
     <div class="meta-grid">
       ${compactList(t.education, cv.education, lang)}
+      ${compactList(t.grants, cv.grants, lang)}
       ${compactList(t.support, cv.support, lang)}
+      ${compactList(t.teaching, cv.teaching, lang)}
       ${compactList(t.qualifications, cv.qualifications, lang)}
       <section class="meta-section">
         <h2>${escapeHtml(t.fields)}</h2>

@@ -84,6 +84,21 @@ CVのヘッダーには、所属・ホームページURLは表示しません。
 
 HTML版はブラウザで表示確認できます。PDF版は提出・共有用です。
 
+## 研究業績リスト（提出用）
+
+提出先から研究業績リストの分類指定がある場合は、CVとは別に次のコマンドで日本語版の提出用リストを生成します。
+
+```sh
+npm run build:achievements
+```
+
+生成物は以下です。
+
+- HTML: `dist/research_achievements_Kitadai_202607.html`
+- PDF: `dist/research_achievements_Kitadai_202607.pdf`
+
+このリストは `data/cv.mjs` の内容をもとに、学術雑誌論文（査読付）、国際会議論文（査読付）、著書、総説および解説、学術講演・研究発表、特許、外部資金獲得状況などの提出用カテゴリへ再分類します。
+
 ## 必要な環境
 
 - Node.js

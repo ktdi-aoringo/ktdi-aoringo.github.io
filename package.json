@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "build:achievements": "node scripts/build-achievements.mjs",
     "build:cv": "node scripts/build-cv.mjs"
   }
 }

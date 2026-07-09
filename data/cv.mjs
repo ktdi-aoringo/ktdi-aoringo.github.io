@@ -1,5 +1,5 @@
 export default {
-  lastUpdated: "2026/7/4",
+  lastUpdated: "2026/7/7",
   profile: {
     nameJa: "北代絢大",
     nameEn: "Ayato Kitadai",
@@ -20,11 +20,17 @@ export default {
       ja: "東京大学 工学部 システム創成学科 2019年4月 - 2023年3月"
     }
   ],
-  support: [
+  grants: [
     {
       en: "JSPS Research Fellowship for Young Scientists (DC1), Apr. 2025 - Present",
       ja: "日本学術振興会 特別研究員（DC1）2025年4月 - 現在"
     },
+    {
+      en: "Publicly Offered Research Fund, Research Institute for Socionetwork Strategies (RISS), Kansai University, “The Effect of Generative AI Dialogue Intervention on Individual Decision-Making in a Dynamic CPR Game” (Co-Investigator), Jun. 2026 - Mar. 2028",
+      ja: "関西大学ソシオネットワーク戦略研究機構 2026年度公募研究費「動学的CPRゲームにおける生成系AIの対話介入が個人の意思決定に与える影響」（研究分担者）2026年6月 - 2028年3月"
+    }
+  ],
+  support: [
     {
       en: "WINGS GLAFS Excellent Research Assistant, Sep. 2023 - Mar. 2025",
       ja: "WINGS GLAFS 卓越RA 2023年9月 - 2025年3月"
@@ -36,12 +42,19 @@ export default {
       ja: "教員免許（中高一種、数学）"
     }
   ],
+  teaching: [
+    {
+      en: "Guest Lecturer, Interdisciplinary General Lecture (Introduction to AI), Meiji University, Fall 2025",
+      ja: "明治大学 共通総合講座（AI概論）ゲスト講師 2025年度秋学期"
+    }
+  ],
   fields: [
     { en: "Service Engineering", ja: "サービス工学" },
     { en: "Mechanism Design", ja: "メカニズムデザイン" },
     { en: "Game Theory", ja: "ゲーム理論" },
     { en: "Market Design", ja: "マーケットデザイン" },
     { en: "Experimental Economics", ja: "実験経済学" },
+    { en: "Behavioral Economics", ja: "行動経済学" },
     { en: "Large Language Models", ja: "大規模言語モデル" },
     { en: "Multi-Agent Simulation", ja: "マルチエージェントシミュレーション" }
   ],

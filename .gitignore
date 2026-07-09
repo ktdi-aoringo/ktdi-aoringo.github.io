@@ -14,3 +14,8 @@ CLAUDE.md
 # 一時ファイル
 *.tmp
 *.temp
+
+# 生成された一時・提出用ファイル
+dist/research_achievements_*.html
+dist/research_achievements_*.pdf
+dist/cv_Kitadai_*.pdf
