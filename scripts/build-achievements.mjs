@@ -57,6 +57,24 @@ const internationalConferencePapers = peerReviewed.filter((entry) => !journalPap
 const reviewsAndCommentaries = talks.filter((entry) => pick(entry, "ja").includes("経済セミナー"));
 const talksWithoutCommentaries = talks.filter((entry) => !reviewsAndCommentaries.includes(entry));
 
+const titleOf = (entry) => {
+  const match = pick(entry, "en").match(/[“"](.+?)[”"]/);
+  return match?.[1] ?? pick(entry, "en");
+};
+
+const normalizedTitle = (title) =>
+  title.toLowerCase().replaceAll(/[^a-z0-9]+/g, "");
+
+const internationalConferencePaperTitles = new Set(
+  internationalConferencePapers.map((entry) => normalizedTitle(titleOf(entry)))
+);
+
+// A proceedings paper is listed under section 2 only; its corresponding
+// conference presentation is not repeated under section 5.1.
+const internationalPresentationsWithoutProceedings = internationalPresentations.filter(
+  (entry) => !internationalConferencePaperTitles.has(normalizedTitle(titleOf(entry)))
+);
+
 const renderOrderedList = (items) => {
   if (items.length === 0) {
     return '<p class="none">該当なし</p>';
@@ -229,13 +247,13 @@ const renderHtml = () => `<!doctype html>
     ${renderSection("3. 著書", [])}
     ${renderSection("4. 総説および解説", reviewsAndCommentaries)}
     ${renderNestedSection("5. 学術講演・研究発表", [
-      { title: "5.1 国際会議発表", items: internationalPresentations },
+      { title: "5.1 国際会議発表", items: internationalPresentationsWithoutProceedings },
       { title: "5.2 国内会議発表", items: domesticPresentations },
       { title: "5.3 招待講演・セミナー等", items: talksWithoutCommentaries }
     ])}
     ${renderSection("6. 特許", [])}
     ${renderSection("7. 外部資金獲得状況", cv.grants)}
-    ${renderSection("8. 査読前論文・ワーキングペーパー", workingPapers)}
+    ${renderSection("8. ワーキングペーパー", workingPapers)}
     ${renderSection("9. 受賞", awards)}
   </main>
 </body>

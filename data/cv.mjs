@@ -99,7 +99,7 @@ export default {
       entries: [
         "A. Kitadai, S. Yoshimura, T. Nakashima, N. Torpo, R. Miratsu, N. Mizutani and N. Nishino; “‘Sail Fast, Then Wait’ in First-come, First-served Port Queues: Information Sharing for Sustainable Shipping,” GDN 2026, Katowice, Poland, June 2026.",
         "J. Zhang, A. Kitadai and N. Nishino; “The Dynamics of Coopetition: A Biform Game Analysis of Incentive Mechanisms in DevOps,” GDN 2026, Katowice, Poland, June 2026.",
-        "A. Kitadai et al.; “Information Asymmetry in FCFS Port Queues: A Game Theoretic Analysis of ‘Sail Fast, Then Wait’,” SMRC x MTEC/ICMASS 2026, Singapore, April 2026.",
+        "A. Kitadai, S. Yoshimura, T. Nakashima, N. Torpo, R. Miratsu, N. Mizutani and N. Nishino; “Information Asymmetry in FCFS Port Queues: A Game Theoretic Analysis of ‘Sail Fast, Then Wait’,” SMRC x MTEC/ICMASS 2026, Singapore, April 2026.",
         "S. Yoshimura, T. Kawasaki, A. Kitadai and N. Nishino; “Analysis of Optimal Ship Navigation in Offshore Waiting Situations,” ICServ 2025, Stockholm, December 2025.",
         "H. Cheng, S. Lee, H. Watanabe, A. Kitadai, Y. Nagoh, M. Fujita and N. Nishino; “How Can Barriers to Innovation Diffusion and Transition Be Identified from Bibliometric Data?,” R&D Management Conference 2025, July 2025.",
         "A. Kitadai, T. Nakashima, Y. Tsurusaki, R. Miratsu, N. Mizutani and N. Nishino; “Can rich information decrease anchorage waiting time? A game-theoretic analysis toward sustainable shipping,” EURO 2025, Leeds, UK, June 2025.",
@@ -225,17 +225,17 @@ export default {
         },
         "2024 GDN Springer Best Student Paper Award (2024)",
         {
-          en: "Best Paper Award and Arai Award, 12th Annual Conference of the Service Science Society of Japan (2024)",
-          ja: "サービス学会第12回国内大会 ベストペーパー賞・荒井賞 (2024)"
+          en: "Outstanding Conference Award and Arai Award, 12th Annual Conference of the Service Science Society of Japan (2024)",
+          ja: "サービス学会第12回国内大会 大会優秀賞・荒井賞 (2024)"
         },
         {
-          en: "Poster Presentation Encouragement Award (General Division), Behavioral Economics Society (2024)",
-          ja: "行動経済学会 ポスター発表 奨励賞（一般部門） (2024)"
+          en: "Poster Report Encouragement Award (General Division), Behavioral Economics Society (2024)",
+          ja: "行動経済学会ポスター報告奨励賞（一般部門） (2024)"
         },
         "2023 GDN Springer Best Student Paper Award (2023)",
         {
-          en: "Best Paper Award, 11th Annual Conference of the Service Science Society of Japan (2023)",
-          ja: "サービス学会第11回国内大会 ベストペーパー賞 (2023)"
+          en: "Outstanding Conference Award, 11th Annual Conference of the Service Science Society of Japan (2023)",
+          ja: "サービス学会第11回国内大会 大会優秀賞 (2023)"
         }
       ]
     },
