@@ -229,8 +229,8 @@ export default {
           ja: "サービス学会第12回国内大会 大会優秀賞・荒井賞 (2024)"
         },
         {
-          en: "Poster Report Encouragement Award (General Division), Behavioral Economics Society (2024)",
-          ja: "行動経済学会ポスター報告奨励賞（一般部門） (2024)"
+          en: "Poster Report Encouragement Award (General Division), Behavioral Economics Society (2023)",
+          ja: "行動経済学会ポスター報告奨励賞（一般部門） (2023)"
         },
         "2023 GDN Springer Best Student Paper Award (2023)",
         {
