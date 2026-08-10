@@ -105,7 +105,7 @@ export default {
         "A. Kitadai, T. Nakashima, Y. Tsurusaki, R. Miratsu, N. Mizutani and N. Nishino; “Can rich information decrease anchorage waiting time? A game-theoretic analysis toward sustainable shipping,” 34th European Conference on Operational Research, Leeds, UK, June 23, 2025.",
         "A. Kitadai, R. Ishikawa, S. Lee, J. Teng, K. Nishiyama and N. Nishino; “Consensus Formation in Physical, Virtual, and Interverse Spaces: Experimental Insights,” 25th International Conference on Group Decision and Negotiation, Zaragoza, Spain, June 16, 2025.",
         "H. Sawazaki, X. Shang, S. Lee, A. Kitadai and N. Nishino; “Tenant allocation in shopping malls based on deferred acceptance algorithm,” 18th CIRP International Conference on Intelligent Computation in Manufacturing Engineering, Naples, Italy, July 10, 2024.",
-        "A. Kitadai, S.D.R. Lugo, Y. Tsurusaki, Y. Fukasawa and N. Nishino; “Can AI with High Reasoning Ability Replicate Human-like Decision Making in Economic Experiments?,” 24th International Conference on Group Decision and Negotiation & 10th International Conference on Decision Support System Technology, June 3, 2024."
+        "A. Kitadai, S.D.R. Lugo, Y. Tsurusaki, Y. Fukasawa and N. Nishino; “Can AI with High Reasoning Ability Replicate Human-like Decision Making in Economic Experiments?,” 24th International Conference on Group Decision and Negotiation & 10th International Conference on Decision Support System Technology, Faculty of Engineering of the University of Porto, Porto, Portugal, June 3, 2024."
       ]
     },
     {
@@ -274,7 +274,7 @@ export default {
           en: "Ayato Kitadai, “Economic Experiments with AI as Subjects,” Joint Research Project Management Support Workshop (Kyoto Sangyo University), August 1, 2024 (invited).",
           ja: "北代絢大「AIを被験者とする経済実験」共同研究プロジェクト運営支援の研究会（京都産業大学 経済実験室）, 2024年8月1日（招待講演）."
         },
-        "Ayato Kitadai, “Exploring Various Methods for Generative Agents to Replicate Results in Economic Experiments of the Ultimatum Game,” Workshop on Artificial Intelligence in Academic Research, July 9, 2024 (invited).",
+        "Ayato Kitadai, “Exploring Various Methods for Generative Agents to Replicate Results in Economic Experiments of the Ultimatum Game,” 1st CEE-M Workshop on Artificial Intelligence in Research, Center for Environmental Economics - Montpellier (CEE-M), Faculty of Economics, Richter campus, Montpellier, France (Amphi 319), hybrid; online presentation, July 9, 2024 (invited).",
         {
           en: "Ayato Kitadai, “Decision-making Analysis of Data Provision as a Public Goods Model,” 2nd Mechanism Synthesis Research Seminar, March 1, 2024 (invited).",
           ja: "北代絢大「公共財モデルとしてのデータ提供の意思決定分析」第2回メカニズムシンセシス研究セミナー, 2024年3月1日（招待講演）."
