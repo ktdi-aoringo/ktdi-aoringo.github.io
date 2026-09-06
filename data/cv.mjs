@@ -1,5 +1,5 @@
 export default {
-  lastUpdated: "2026/8/6",
+  lastUpdated: "2026/9/6",
   profile: {
     nameJa: "北代絢大",
     nameEn: "Ayato Kitadai",
@@ -243,6 +243,16 @@ export default {
       titleEn: "Talks and Other Activities",
       titleJa: "その他講演等",
       entries: [
+        // Date, title, speaker and venue: RISS official program. Invited status: speaker confirmation.
+        // English title and workshop name are translations of the Japanese program.
+        {
+          "en": "Ayato Kitadai, “Toward the Use of Simulation in Experimental Economics: AI Agents and Human Decision-Making,” RISS Data Creation Unit Workshop, Research Institute for Socionetwork Strategies (RISS), Kansai University, Multimedia Laboratory (6F), Senriyama Campus, Suita, Osaka, September 1, 2026 (invited).",
+          "ja": "北代絢大「実験経済学におけるシミュレーション活用に向けて：AIエージェントと人間の意思決定」RISS データ創出ユニットワークショップ, 関西大学千里山キャンパス ソシオネットワーク戦略研究機構 6階マルチメディア・ラボ（大阪府吹田市）, 2026年9月1日（招待講演）.",
+          "date": "2026-09-01",
+          "time": "16:00-17:00 JST",
+          "invited": true,
+          "sourceUrl": "https://www.kansai-u.ac.jp/riss/interworkshop/"
+        },
         "A. Kitadai, Y. Nakamoto and N. Nishino; “Do Generative AI Chatbots Increase Dominant-Strategy Play in Matching Mechanisms?,” International Workshop on Human-AI Interaction, ISER, Osaka, March 24, 2026 (invited).",
         "Y. Hoshino, A. Kitadai and N. Nishino; “Do Matching Mechanisms Work with LLM Agents?,” International Workshop on Human-AI Interaction, ISER, Osaka, March 23, 2026.",
         {
