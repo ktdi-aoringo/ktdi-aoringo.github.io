@@ -3,7 +3,6 @@
 // • Theme: light / dark / auto, persisted to localStorage, respects OS
 // • Language: en / ja, persisted, swaps every [data-en]/[data-ja] string
 // • Mobile menu
-// • Research-hub: tab switching, sort, filter
 // =====================================================================
 
 (function () {
@@ -116,99 +115,6 @@
         targets.forEach(t => io.observe(t.el));
     }
 
-    // ----- Research-hub tabs + sort + filter -------------------------
-    function setupHub() {
-        const tabs    = document.querySelectorAll('.hub-tab');
-        const panels  = document.querySelectorAll('.hub-panel');
-        const toolbar = document.getElementById('hub-toolbar');
-        if (!tabs.length) return;
-
-        // Remember the original order of each list so 'Original order' works.
-        const originalOrder = new Map();
-        document.querySelectorAll('.pub-list').forEach(list => {
-            originalOrder.set(list, Array.from(list.children));
-        });
-
-        function setActiveTab(tabId) {
-            tabs.forEach(t => {
-                const active = t.getAttribute('data-tab') === tabId;
-                t.classList.toggle('active', active);
-                t.setAttribute('aria-selected', String(active));
-            });
-            panels.forEach(p => p.classList.toggle('active', p.id === 'panel-' + tabId));
-
-            // Sort/filter only meaningful on Papers & Presentations
-            const showToolbar = tabId === 'papers' || tabId === 'presentations';
-            if (toolbar) toolbar.style.display = showToolbar ? '' : 'none';
-
-            if (location.hash !== '#' + tabId) {
-                history.replaceState(null, '', '#' + tabId);
-            }
-        }
-
-        tabs.forEach(t => t.addEventListener('click', () => setActiveTab(t.getAttribute('data-tab'))));
-
-        const validTabs = ['papers', 'presentations', 'awards', 'talks'];
-        const hash = location.hash.replace('#', '');
-        setActiveTab(validTabs.includes(hash) ? hash : 'papers');
-
-        // Sort
-        const sortSelect       = document.getElementById('sort-by');
-        const categorySelect   = document.getElementById('filter-category');
-        const firstAuthorCheck = document.getElementById('filter-first');
-        const resetBtn         = document.getElementById('reset-filters');
-
-        function sortLists(mode) {
-            document.querySelectorAll('.pub-list').forEach(list => {
-                const items = Array.from(list.children);
-                let sorted;
-                if (mode === 'year-desc') {
-                    sorted = [...items].sort((a, b) =>
-                        (parseInt(b.getAttribute('data-year'), 10) || 0) -
-                        (parseInt(a.getAttribute('data-year'), 10) || 0));
-                } else if (mode === 'year-asc') {
-                    sorted = [...items].sort((a, b) =>
-                        (parseInt(a.getAttribute('data-year'), 10) || 0) -
-                        (parseInt(b.getAttribute('data-year'), 10) || 0));
-                } else {
-                    sorted = originalOrder.get(list) || items;
-                }
-                sorted.forEach(it => list.appendChild(it));
-            });
-        }
-
-        function applyFilters() {
-            const cat = categorySelect ? categorySelect.value : 'all';
-            const firstOnly = firstAuthorCheck ? firstAuthorCheck.checked : false;
-
-            document.querySelectorAll('.hub-subsection').forEach(sub => {
-                const sc = sub.getAttribute('data-category');
-                sub.classList.toggle('hidden', cat !== 'all' && cat !== sc);
-            });
-
-            document.querySelectorAll('.pub-item').forEach(item => {
-                const isFirst = item.getAttribute('data-first') === 'true';
-                item.classList.toggle('hidden', firstOnly && !isFirst);
-            });
-        }
-
-        function reset() {
-            if (sortSelect)       sortSelect.value         = 'year-desc';
-            if (categorySelect)   categorySelect.value     = 'all';
-            if (firstAuthorCheck) firstAuthorCheck.checked = false;
-            sortLists('year-desc');
-            applyFilters();
-        }
-
-        if (sortSelect)       sortSelect.addEventListener('change',  e => sortLists(e.target.value));
-        if (categorySelect)   categorySelect.addEventListener('change', applyFilters);
-        if (firstAuthorCheck) firstAuthorCheck.addEventListener('change', applyFilters);
-        if (resetBtn)         resetBtn.addEventListener('click', reset);
-
-        sortLists('year-desc');
-        applyFilters();
-    }
-
     // ----- Hero entrance (class-driven; reliable in throttled tabs) --
     function setupHeroEntrance() {
         const heroText = document.querySelector('.hero-text');
@@ -227,9 +133,10 @@
 
     // ----- Scroll-reveal observer (re-triggers each time element enters)
     function setupReveal() {
-        const targets = document.querySelectorAll(
-            '.section, .hub-subsection, .approach-row, .timeline-item, .pub-item, .contact-card, .interest-row'
-        );
+        // Keep the full research list visible for reading, anchors and browser Find.
+        const targets = Array.from(document.querySelectorAll(
+            '.section, .approach-row, .timeline-item, .pub-item, .contact-card, .interest-row'
+        )).filter(target => !target.closest('.research-sections'));
         if (!targets.length) return;
         targets.forEach(t => t.classList.add('reveal'));
 
@@ -276,7 +183,6 @@
         updateThemeLabel(initialTheme);
         setupMenu();
         setupActiveLink();
-        setupHub();
         setupHeroEntrance();
         setupReveal();
         setupMagneticButtons();

@@ -70,50 +70,25 @@
 
     <header class="hub-header">
         <span class="kicker">Publications &amp; Talks</span>
-        <h1 class="hub-title">Research</h1>
+        <h1 class="hub-title" data-en="Research" data-ja="研究業績">Research</h1>
             <p class="hub-meta" data-en="Last updated: September 6, 2026 · Ayato Kitadai" data-ja="最終更新: 2026年9月6日 · 北代 絢大">Last updated: September 6, 2026 · Ayato Kitadai</p>
     </header>
 
-    <nav class="hub-tabs" role="tablist" aria-label="Research sections">
-        <button type="button" class="hub-tab active" data-tab="papers">Papers</button>
-        <button type="button" class="hub-tab"        data-tab="presentations">Presentations</button>
-        <button type="button" class="hub-tab"        data-tab="awards">Awards</button>
-        <button type="button" class="hub-tab"        data-tab="talks">Other</button>
+    <nav class="research-nav" aria-label="Research sections">
+        <a href="#papers" data-en="Papers" data-ja="論文">Papers</a>
+        <a href="#presentations" data-en="Presentations" data-ja="学会発表">Presentations</a>
+        <a href="#awards" data-en="Awards" data-ja="受賞">Awards</a>
+        <a href="#talks" data-en="Other" data-ja="その他の活動">Other</a>
     </nav>
 
-    <div class="hub-toolbar" id="hub-toolbar">
-        <span class="toolbar-label">Sort</span>
-        <select id="sort-by">
-            <option value="year-desc">Year (Newest first)</option>
-            <option value="year-asc">Year (Oldest first)</option>
-            <option value="default">Original order</option>
-        </select>
-
-        <span class="toolbar-label">Category</span>
-        <select id="filter-category">
-            <option value="all">All</option>
-            <option value="journals">Journal Papers</option>
-            <option value="proceedings">Conference Papers</option>
-            <option value="working-papers">Working Papers</option>
-            <option value="international">International Confs</option>
-            <option value="domestic">Domestic Confs</option>
-        </select>
-
-        <label class="check">
-            <input type="checkbox" id="filter-first">
-            <span>First author only</span>
-        </label>
-
-        <button class="reset" id="reset-filters">Reset</button>
-    </div>
-
-    <div class="hub-panels">
+    <div class="research-sections">
 
         <!-- =============== PAPERS =============== -->
-        <section class="hub-panel active" id="panel-papers" role="tabpanel">
+        <section class="research-section" id="papers" aria-labelledby="papers-heading">
+            <h2 class="research-section-title" id="papers-heading" data-en="Papers" data-ja="論文">Papers</h2>
 
             <div class="hub-subsection" data-category="journals">
-                <h2 class="hub-subsection-title">Journal Papers (Peer-Reviewed)</h2>
+                <h3 class="hub-subsection-title">Journal Papers (Peer-Reviewed)</h3>
                 <ul class="pub-list">
                     <li class="pub-item" data-year="2025" data-first="true">
                         <span class="pub-num">J01</span>
@@ -126,7 +101,7 @@
             </div>
 
             <div class="hub-subsection" data-category="proceedings">
-                <h2 class="hub-subsection-title">Conference Papers (Peer-Reviewed International Proceedings)</h2>
+                <h3 class="hub-subsection-title">Conference Papers (Peer-Reviewed International Proceedings)</h3>
                 <ul class="pub-list">
                     <li class="pub-item" data-year="2026">
                         <span class="pub-num">P01</span>
@@ -230,7 +205,7 @@
             </div>
 
             <div class="hub-subsection" data-category="working-papers">
-                <h2 class="hub-subsection-title">Working Papers</h2>
+                <h3 class="hub-subsection-title">Working Papers</h3>
                 <ul class="pub-list">
                     <li class="pub-item" data-year="2026">
                         <span class="pub-num">W01</span>
@@ -259,6 +234,13 @@
                             <div class="pub-tags"><span class="pub-tag">Under review</span></div>
                         </div>
                     </li>
+                    <li class="pub-item" data-year="2026" data-first="true">
+                        <span class="pub-num">W08</span>
+                        <div>
+                            <div class="pub-body"><strong>A. Kitadai</strong>, Y. Takenoya, S.D.R. Lugo and N. Nishino; “Coordinating Multi-Item Contributions through Weighted Proportional Reward Sharing under a Committed Budget.”</div>
+                            <div class="pub-tags"><span class="pub-tag first">First Author</span><span class="pub-tag">Under review</span></div>
+                        </div>
+                    </li>
                     <li class="pub-item" data-year="2025" data-first="true">
                         <span class="pub-num">W05</span>
                         <div>
@@ -280,22 +262,16 @@
                             <div class="pub-tags"><span class="pub-tag first">First Author</span><span class="pub-tag">Under review</span></div>
                         </div>
                     </li>
-                    <li class="pub-item" data-year="2026" data-first="true">
-                        <span class="pub-num">W08</span>
-                        <div>
-                            <div class="pub-body"><strong>A. Kitadai</strong>, Y. Takenoya, S.D.R. Lugo and N. Nishino; “Coordinating Multi-Item Contributions through Weighted Proportional Reward Sharing under a Committed Budget.”</div>
-                            <div class="pub-tags"><span class="pub-tag first">First Author</span><span class="pub-tag">Under review</span></div>
-                        </div>
-                    </li>
                 </ul>
             </div>
         </section>
 
         <!-- =============== PRESENTATIONS =============== -->
-        <section class="hub-panel" id="panel-presentations" role="tabpanel">
+        <section class="research-section" id="presentations" aria-labelledby="presentations-heading">
+            <h2 class="research-section-title" id="presentations-heading" data-en="Presentations" data-ja="学会発表">Presentations</h2>
 
             <div class="hub-subsection" data-category="international">
-                <h2 class="hub-subsection-title">Conference Presentations (International, oral &amp; peer-reviewed)</h2>
+                <h3 class="hub-subsection-title">Conference Presentations (International, oral &amp; peer-reviewed)</h3>
                 <ul class="pub-list">
                     <li class="pub-item" data-year="2026" data-first="true">
                         <span class="pub-num">I01</span>
@@ -364,7 +340,7 @@
             </div>
 
             <div class="hub-subsection" data-category="domestic">
-                <h2 class="hub-subsection-title">Conference Presentations (Domestic, oral)</h2>
+                <h3 class="hub-subsection-title">Conference Presentations (Domestic, oral)</h3>
                 <ul class="pub-list">
                     <li class="pub-item" data-year="2026" data-first="true">
                         <span class="pub-num">D01</span>
@@ -529,9 +505,9 @@
         </section>
 
         <!-- =============== AWARDS =============== -->
-        <section class="hub-panel" id="panel-awards" role="tabpanel">
+        <section class="research-section" id="awards" aria-labelledby="awards-heading">
+            <h2 class="research-section-title" id="awards-heading" data-en="Awards" data-ja="受賞">Awards</h2>
             <div class="hub-subsection" data-category="awards">
-                <h2 class="hub-subsection-title">Awards</h2>
                 <ul class="pub-list">
                     <li class="pub-item" data-year="2026"><span class="pub-num">A01</span><div><div class="pub-body" data-en="2026 GDN Springer Best Student Paper Award (2026)" data-ja="2026 GDN Springer Best Student Paper Award (2026)">2026 GDN Springer Best Student Paper Award (2026)</div></div></li>
                     <li class="pub-item" data-year="2025"><span class="pub-num">A02</span><div><div class="pub-body" data-en="Head of Department Award (Academic Achievement), Dept. of Technology Management for Innovation, Graduate School of Engineering, The University of Tokyo (2025)" data-ja="東京大学 大学院工学系研究科 技術経営戦略学専攻 学修優秀賞 (2025)">Head of Department Award (Academic Achievement), Dept. of Technology Management for Innovation, Graduate School of Engineering, The University of Tokyo (2025)</div></div></li>
@@ -545,30 +521,31 @@
         </section>
 
         <!-- =============== TALKS / OTHER =============== -->
-        <section class="hub-panel" id="panel-talks" role="tabpanel">
+        <section class="research-section" id="talks" aria-labelledby="talks-heading">
+            <h2 class="research-section-title" id="talks-heading" data-en="Other" data-ja="その他の活動">Other</h2>
             <div class="hub-subsection" data-category="talks">
-                <h2 class="hub-subsection-title" data-en="Grants" data-ja="研究費・フェローシップ">Grants</h2>
+                <h3 class="hub-subsection-title" data-en="Grants" data-ja="研究費・フェローシップ">Grants</h3>
                 <ul class="pub-list">
-                    <li class="pub-item" data-year="2025"><span class="pub-num">G01</span><div><div class="pub-body" data-en="JSPS Research Fellowship for Young Scientists (DC1), April 2025 - Present" data-ja="日本学術振興会 特別研究員（DC1）2025年4月 - 現在">JSPS Research Fellowship for Young Scientists (DC1), April 2025 - Present</div></div></li>
                     <li class="pub-item" data-year="2026"><span class="pub-num">G02</span><div><div class="pub-body" data-en="Publicly Offered Research Fund, Research Institute for Socionetwork Strategies (RISS), Kansai University, “The Effect of Generative AI Dialogue Intervention on Individual Decision-Making in a Dynamic CPR Game” (Co-Investigator), June 2026 - March 2028" data-ja="関西大学ソシオネットワーク戦略研究機構 2026年度公募研究費「動学的CPRゲームにおける生成系AIの対話介入が個人の意思決定に与える影響」（研究分担者）2026年6月 - 2028年3月">Publicly Offered Research Fund, Research Institute for Socionetwork Strategies (RISS), Kansai University, “The Effect of Generative AI Dialogue Intervention on Individual Decision-Making in a Dynamic CPR Game” (Co-Investigator), June 2026 - March 2028</div></div></li>
+                    <li class="pub-item" data-year="2025"><span class="pub-num">G01</span><div><div class="pub-body" data-en="JSPS Research Fellowship for Young Scientists (DC1), April 2025 - Present" data-ja="日本学術振興会 特別研究員（DC1）2025年4月 - 現在">JSPS Research Fellowship for Young Scientists (DC1), April 2025 - Present</div></div></li>
                 </ul>
             </div>
             <div class="hub-subsection" data-category="talks">
-                <h2 class="hub-subsection-title" data-en="Teaching Experience" data-ja="教育経験">Teaching Experience</h2>
+                <h3 class="hub-subsection-title" data-en="Teaching Experience" data-ja="教育経験">Teaching Experience</h3>
                 <ul class="pub-list">
                     <li class="pub-item" data-year="2025"><span class="pub-num">E01</span><div><div class="pub-body" data-en="Guest Lecturer, Interdisciplinary General Lecture (Introduction to AI), Meiji University, Fall 2025" data-ja="明治大学 共通総合講座（AI概論）ゲスト講師 2025年度秋学期">Guest Lecturer, Interdisciplinary General Lecture (Introduction to AI), Meiji University, Fall 2025</div></div></li>
                 </ul>
             </div>
             <div class="hub-subsection" data-category="talks">
-                <h2 class="hub-subsection-title">Talks &amp; Other</h2>
+                <h3 class="hub-subsection-title">Talks &amp; Other</h3>
                 <ul class="pub-list">
                     <li class="pub-item" data-year="2026" data-first="true"><span class="pub-num">T14</span><div><div class="pub-body" data-en="&lt;strong&gt;Ayato Kitadai&lt;/strong&gt;, “Toward the Use of Simulation in Experimental Economics: AI Agents and Human Decision-Making,” RISS Data Creation Unit Workshop, Research Institute for Socionetwork Strategies (RISS), Kansai University, Multimedia Laboratory (6F), Senriyama Campus, Suita, Osaka, September 1, 2026 (invited)." data-ja="&lt;strong&gt;北代絢大&lt;/strong&gt;「実験経済学におけるシミュレーション活用に向けて：AIエージェントと人間の意思決定」RISS データ創出ユニットワークショップ, 関西大学千里山キャンパス ソシオネットワーク戦略研究機構 6階マルチメディア・ラボ（大阪府吹田市）, 2026年9月1日（招待講演）."><strong>Ayato Kitadai</strong>, “Toward the Use of Simulation in Experimental Economics: AI Agents and Human Decision-Making,” RISS Data Creation Unit Workshop, Research Institute for Socionetwork Strategies (RISS), Kansai University, Multimedia Laboratory (6F), Senriyama Campus, Suita, Osaka, September 1, 2026 (invited).</div><a href="https://www.kansai-u.ac.jp/riss/interworkshop/" target="_blank" rel="noopener" data-en="Official program" data-ja="公式プログラム">Official program</a></div></li>
+                    <li class="pub-item" data-year="2026"><span class="pub-num">T03</span><div><div class="pub-body">Ayato Kitadai, “AI as Part of Mechanism Design: Evidence from Laboratory Experiments,” Behavioral and Experimental Economics Seminar (BEES), Waseda University, June 16, 2026.</div></div></li>
                     <li class="pub-item" data-year="2026" data-first="true"><span class="pub-num">T01</span><div><div class="pub-body"><strong>A. Kitadai</strong>, Y. Nakamoto and N. Nishino; “Do Generative AI Chatbots Increase Dominant-Strategy Play in Matching Mechanisms?,” International Workshop on Human-AI Interaction, ISER, Osaka, March 24, 2026 (invited).</div></div></li>
                     <li class="pub-item" data-year="2026"><span class="pub-num">T02</span><div><div class="pub-body">Y. Hoshino, <strong>A. Kitadai</strong> and N. Nishino; “Do Matching Mechanisms Work with LLM Agents?,” International Workshop on Human-AI Interaction, ISER, Osaka, March 23, 2026.</div></div></li>
-                    <li class="pub-item" data-year="2026"><span class="pub-num">T03</span><div><div class="pub-body">Ayato Kitadai, “AI as Part of Mechanism Design: Evidence from Laboratory Experiments,” Behavioral and Experimental Economics Seminar (BEES), Waseda University, June 16, 2026.</div></div></li>
-                    <li class="pub-item" data-year="2026"><span class="pub-num">T04</span><div><div class="pub-body">Ayato Kitadai, “Exploring Various Methods for Generative Agents to Replicate Results in Economic Experiments of the Ultimatum Game,” HSE Comsoc seminar, DeCAn, February 12, 2026 (invited).</div></div></li>
                     <li class="pub-item" data-year="2026" data-first="true"><span class="pub-num">T05</span><div><div class="pub-body"><strong>A. Kitadai</strong>, Y. Nakamoto and N. Nishino; “Do Generative AI Chatbots Increase Dominant-Strategy Play in Matching Mechanisms?,” Kansai University RISS Workshop, February 28, 2026.</div></div></li>
                     <li class="pub-item" data-year="2026"><span class="pub-num">T06</span><div><div class="pub-body">Y. Hoshino, <strong>A. Kitadai</strong> and N. Nishino; “Do Matching Mechanisms Work with LLM Agents?,” Kansai University RISS Workshop, February 28, 2026.</div></div></li>
+                    <li class="pub-item" data-year="2026"><span class="pub-num">T04</span><div><div class="pub-body">Ayato Kitadai, “Exploring Various Methods for Generative Agents to Replicate Results in Economic Experiments of the Ultimatum Game,” HSE Comsoc seminar, DeCAn, February 12, 2026 (invited).</div></div></li>
                     <li class="pub-item" data-year="2025"><span class="pub-num">T07</span><div><div class="pub-body">Ayato Kitadai, “Substitutability of Human Behavior by LLM Agents: When and When Not to Use Silicon Sampling,” invited seminar, Analytical Marketing Research Division, Japan Marketing Science Association, October 7, 2025.</div></div></li>
                     <li class="pub-item" data-year="2025"><span class="pub-num">T08</span><div><div class="pub-body">Ayato Kitadai, “AI-driven ‘Human-like’ Decision Making: Utilizing Insights and Data from Behavioral Economics,” Japan Association for Evolutionary Economics Online Lecture Series, July 19, 2025 (invited).</div></div></li>
                     <li class="pub-item" data-year="2024"><span class="pub-num">T09</span><div><div class="pub-body">Ayato Kitadai, “Comment on ‘Keizai Seminar’ August–September 2024 Issue,” Keizai Seminar December 2024 – January 2025 Issue.</div></div></li>
