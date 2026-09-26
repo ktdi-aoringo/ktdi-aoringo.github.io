@@ -1,5 +1,5 @@
 export default {
-  lastUpdated: "2026/9/6",
+  lastUpdated: "2026/9/26",
   profile: {
     nameJa: "北代絢大",
     nameEn: "Ayato Kitadai",
@@ -244,6 +244,14 @@ export default {
       titleEn: "Talks and Other Activities",
       titleJa: "その他講演等",
       entries: [
+        // English title and session name are translations of the official Japanese program.
+        {
+          "en": "Ayato Kitadai, “Matching Mechanisms and AI,” FY2026 Second Online Research Seminar, Japan Industrial Management Association (JIMA), “Developments in Service Mechanism Design Research” (Service Division), online (Zoom), September 25, 2026 (invited).",
+          "ja": "北代絢大「マッチングメカニズムとAI」日本経営工学会 令和8年度第二回オンライン研究セミナー「サービスメカニズムデザイン研究の展開」（サービス部門）, オンライン（Zoom）, 2026年9月25日（招待講演）.",
+          "date": "2026-09-25",
+          "invited": true,
+          "sourceUrl": "https://conferenceservice.jp/www/jimaseminar/"
+        },
         // Date, title, speaker and venue: RISS official program. Invited status: speaker confirmation.
         // English title and workshop name are translations of the Japanese program.
         {
