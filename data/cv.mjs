@@ -1,5 +1,5 @@
 export default {
-  lastUpdated: "2026/9/26",
+  lastUpdated: "2026/11/9",
   profile: {
     nameJa: "北代絢大",
     nameEn: "Ayato Kitadai",
@@ -114,6 +114,14 @@ export default {
       titleJa: "国内会議発表（口頭）",
       entries: [
         {
+          en: "N. Nishino, S. Lee and A. Kitadai; “Mechanism Design of Communication Environments in the Interverse: A Proposed Framework,” JIMA Fall Conference 2026, Arcrea Himeji, Himeji, October 25, 2026.",
+          ja: "西野成昭, 李相直, 北代絢大：「インターバースにおけるコミュニケーション環境のメカニズムデザイン：枠組みの提案」日本経営工学会2026年秋季大会, アクリエひめじ, 姫路, 2026年10月25日."
+        },
+        {
+          en: "A. Kitadai and N. Nishino; “Analysis of Anchorage Waiting Using a First-Come, First-Served Queueing Game and the Potential for Mitigation through Information Sharing,” JIMA Fall Conference 2026, Arcrea Himeji, Himeji, October 24, 2026.",
+          ja: "北代絢大, 西野成昭：「先着順待ち行列ゲームによる沖待ち現象の分析と情報共有による緩和可能性」日本経営工学会2026年秋季大会, アクリエひめじ, 姫路, 2026年10月24日."
+        },
+        {
           en: "A. Kitadai, Y. Kumagai and R. Yasunaga; “Bounded Rationality in Large Language Models: Price-Quality Heuristics and Self-Control,” JSAI 2026: The 40th Annual Conference of the Japanese Society for Artificial Intelligence, Gunma and online, June 2026.",
           ja: "北代絢大, 熊谷雄介, 安永遼真：「大規模言語モデルにおける限定合理性：価格品質ヒューリスティックとセルフコントロール」2026年度人工知能学会全国大会（第40回）, Gメッセ群馬・オンライン, 2026年6月."
         },
@@ -219,6 +227,10 @@ export default {
       titleEn: "Awards",
       titleJa: "受賞",
       entries: [
+        {
+          en: "Student Encouragement Award, 14th Annual Conference of the Service Science Society of Japan (2026): Y. Hoshino, A. Kitadai and N. Nishino, “Service Design for Proxy Negotiation Markets with AI Agents: Validating the Effectiveness of Matching Algorithms.”",
+          ja: "サービス学会第14回国内大会 学生奨励賞 (2026)：星野透大, 北代絢大, 西野成昭「AIエージェントによる代理交渉市場のサービス設計：マッチングアルゴリズムの有効性検証」"
+        },
         "2026 GDN Springer Best Student Paper Award (2026)",
         {
           en: "Head of Department Award (Academic Achievement), Dept. of Technology Management for Innovation, Graduate School of Engineering, The University of Tokyo (2025)",
