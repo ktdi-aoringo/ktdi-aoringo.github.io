@@ -239,7 +239,7 @@ export default {
         "2024 GDN Springer Best Student Paper Award (2024)",
         {
           en: "Outstanding Conference Award and Arai Award, 12th Annual Conference of the Service Science Society of Japan (2024)",
-          ja: "サービス学会第12回国内大会 大会優秀賞・荒井賞 (2024)"
+          ja: "サービス学会第12回国内大会 大会優秀賞・新井賞 (2024)"
         },
         {
           en: "Poster Report Encouragement Award (General Division), Behavioral Economics Society (2023)",
