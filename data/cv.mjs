@@ -1,5 +1,5 @@
 export default {
-  lastUpdated: "2026/11/9",
+  lastUpdated: "2026/11/17",
   profile: {
     nameJa: "北代絢大",
     nameEn: "Ayato Kitadai",
@@ -63,30 +63,30 @@ export default {
       titleEn: "Peer-Reviewed Publications",
       titleJa: "査読付き学術論文",
       entries: [
-        "A. Kitadai, S.D.R. Lugo, Y. Tsurusaki, Y. Fukasawa and N. Nishino; “Can AI with High Reasoning Ability Replicate Human-like Decision Making in Economic Experiments?” <em>Group Decision and Negotiation</em>, 34(6), 1303-1326, 2025.",
-        "H. Sawazaki, X. Shang, S. Lee, A. Kitadai and N. Nishino; “Tenant allocation in shopping malls based on deferred acceptance algorithm,” <em>Procedia CIRP</em>, 138, 3-8, 2026.",
-        "S. Yoshimura, T. Kawasaki, A. Kitadai and N. Nishino; “Profitability of Slow Steaming Under Vessel Offshore Waiting Conditions,” <em>IEEE Big Data</em>, pp. 5947-5953, 2025.",
-        "T. Nakashima, T. Oyama, R. Wada, A. Kitadai and N. Nishino; “A Transdisciplinary Approach to Cross-Sectoral Collaboration for Climate Change Adaptation: Bridging Synergies and Trade-Offs,” <em>Advances in Transdisciplinary Engineering</em>, 76, 428-437, 2025.",
-        "A. Kitadai, S.D.R. Lugo and N. Nishino; “Matching Problems in Remanufactured Products for Product Service Systems in the Circular Economy,” <em>IFIP Advances in ICT</em>, 767, 246-257, 2025.",
-        "S. Lee, A. Kitadai, Ye Cheng and N. Nishino; “Transformation of Many-to-One to One-to-One Matching Problems Through Replication,” <em>IFIP Advances in ICT</em>, 767, 287-301, 2025.",
-        "A. Kitadai, K. Ogawa and N. Nishino; “Examining the Feasibility of Large Language Models as Survey Respondents,” <em>IEEE Big Data</em>, pp. 3858-3864, 2024.",
-        "Y. Takenoya, A. Kitadai and N. Nishino; “Accounting for Traffic Congestion: Heterogeneous Target Arrival Times, Uncertainty, and Monetary Incentives,” <em>IEEE Big Data</em>, pp. 3880-3888, 2024.",
-        "M. Kobayashi, A. Kitadai, U. Sato, M. Fujita and N. Nishino; “Real Traffic Analysis Around Large-Scale Shopping Mall Using Game Theory,” <em>IFIP Advances in ICT</em>, 730, 408-423, 2024.",
-        "M. Fujita, Z. Cheng, S.D.R. Lugo, A. Kitadai, Y. Dai, Y. Fukasawa and N. Nishino; “Analysis of Medical Data and Machine-Learning Algorithms from the Perspective of Public-Goods Models of Data-Provision Decision Making,” <em>Procedia CIRP</em>, 126, 3-8, 2024.",
-        "M. Fujita, Y. Dai, A. Kitadai, S.D.R. Lugo, Z. Cheng and N. Nishino; “Survey on Stakeholder Cooperative Behavior for Designing Voluntary Medical Data Provision Motivation Mechanisms,” <em>Procedia CIRP</em>, 126, 14-19, 2024.",
-        "A. Kitadai, S.D.R. Lugo, S. Lee, M. Fujita and N. Nishino; “Weighted Reward Allocation Mechanism for Data Collection Quality,” <em>Lecture Notes in Business Information Processing (LNBIP)</em>, 478, 161-174, 2023.",
-        "A. Kitadai, Y. Tsurusaki, Y. Fukasawa and N. Nishino; “Toward a Novel Methodology in Economic Experiments: Simulation of the Ultimatum Game with Large Language Models,” <em>IEEE Big Data</em>, pp. 3168-3175, 2023.",
-        "Z. Zhou, M. Kobayashi, U. Sato, K. Akashi, A. Kitadai, S. Sugihara, Y. Fukasawa, M. Fujita and N. Nishino; “Evaluating the alleviation of traffic congestion through Bus Rapid Transit using Multi-Agent Simulation,” <em>IEEE Big Data</em>, pp. 3237-3244, 2023.",
-        "M. Fujita, A. Kitadai, K. Sumikura and N. Nishino; “Toward the Utilization of Artificial Intelligence in Life Sciences: A Voluntary Medical Data Provisioning Model,” <em>IEEE Big Data</em>, pp. 3250-3257, 2022."
+        {"en":"A. Kitadai, S.D.R. Lugo, Y. Tsurusaki, Y. Fukasawa and N. Nishino; “Can AI with High Reasoning Ability Replicate Human-like Decision Making in Economic Experiments?” <em>Group Decision and Negotiation</em>, 34(6), 1303-1326, 2025.","url":"https://doi.org/10.1007/s10726-025-09946-9"},
+        {"en":"H. Sawazaki, X. Shang, S. Lee, A. Kitadai and N. Nishino; “Tenant allocation in shopping malls based on deferred acceptance algorithm,” <em>Procedia CIRP</em>, 138, 3-8, 2026.","url":"https://doi.org/10.1016/j.procir.2026.01.002"},
+        {"en":"S. Yoshimura, T. Kawasaki, A. Kitadai and N. Nishino; “Profitability of Slow Steaming Under Vessel Offshore Waiting Conditions,” <em>IEEE Big Data</em>, pp. 5947-5953, 2025.","url":"https://doi.org/10.1109/bigdata66926.2025.11401857"},
+        {"en":"T. Nakashima, T. Oyama, R. Wada, A. Kitadai and N. Nishino; “A Transdisciplinary Approach to Cross-Sectoral Collaboration for Climate Change Adaptation: Bridging Synergies and Trade-Offs,” <em>Advances in Transdisciplinary Engineering</em>, 76, 428-437, 2025.","url":"https://doi.org/10.3233/atde251115"},
+        {"en":"A. Kitadai, S.D.R. Lugo and N. Nishino; “Matching Problems in Remanufactured Products for Product Service Systems in the Circular Economy,” <em>IFIP Advances in ICT</em>, 767, 246-257, 2025.","url":"https://doi.org/10.1007/978-3-032-03542-4_17"},
+        {"en":"S. Lee, A. Kitadai, Ye Cheng and N. Nishino; “Transformation of Many-to-One to One-to-One Matching Problems Through Replication,” <em>IFIP Advances in ICT</em>, 767, 287-301, 2025.","url":"https://doi.org/10.1007/978-3-032-03542-4_20"},
+        {"en":"A. Kitadai, K. Ogawa and N. Nishino; “Examining the Feasibility of Large Language Models as Survey Respondents,” <em>IEEE Big Data</em>, pp. 3858-3864, 2024.","url":"https://doi.org/10.1109/bigdata62323.2024.10825497"},
+        {"en":"Y. Takenoya, A. Kitadai and N. Nishino; “Accounting for Traffic Congestion: Heterogeneous Target Arrival Times, Uncertainty, and Monetary Incentives,” <em>IEEE Big Data</em>, pp. 3880-3888, 2024.","url":"https://doi.org/10.1109/bigdata62323.2024.10825629"},
+        {"en":"M. Kobayashi, A. Kitadai, U. Sato, M. Fujita and N. Nishino; “Real Traffic Analysis Around Large-Scale Shopping Mall Using Game Theory,” <em>IFIP Advances in ICT</em>, 730, 408-423, 2024.","url":"https://doi.org/10.1007/978-3-031-71629-4_28"},
+        {"en":"M. Fujita, Z. Cheng, S.D.R. Lugo, A. Kitadai, Y. Dai, Y. Fukasawa and N. Nishino; “Analysis of Medical Data and Machine-Learning Algorithms from the Perspective of Public-Goods Models of Data-Provision Decision Making,” <em>Procedia CIRP</em>, 126, 3-8, 2024.","url":"https://doi.org/10.1016/j.procir.2024.08.252"},
+        {"en":"M. Fujita, Y. Dai, A. Kitadai, S.D.R. Lugo, Z. Cheng and N. Nishino; “Survey on Stakeholder Cooperative Behavior for Designing Voluntary Medical Data Provision Motivation Mechanisms,” <em>Procedia CIRP</em>, 126, 14-19, 2024.","url":"https://doi.org/10.1016/j.procir.2024.08.254"},
+        {"en":"A. Kitadai, S.D.R. Lugo, S. Lee, M. Fujita and N. Nishino; “Weighted Reward Allocation Mechanism for Data Collection Quality,” <em>Lecture Notes in Business Information Processing (LNBIP)</em>, 478, 161-174, 2023.","url":"https://doi.org/10.1007/978-3-031-33780-2_11"},
+        {"en":"A. Kitadai, Y. Tsurusaki, Y. Fukasawa and N. Nishino; “Toward a Novel Methodology in Economic Experiments: Simulation of the Ultimatum Game with Large Language Models,” <em>IEEE Big Data</em>, pp. 3168-3175, 2023.","url":"https://doi.org/10.1109/bigdata59044.2023.10386678"},
+        {"en":"Z. Zhou, M. Kobayashi, U. Sato, K. Akashi, A. Kitadai, S. Sugihara, Y. Fukasawa, M. Fujita and N. Nishino; “Evaluating the alleviation of traffic congestion through Bus Rapid Transit using Multi-Agent Simulation,” <em>IEEE Big Data</em>, pp. 3237-3244, 2023.","url":"https://doi.org/10.1109/bigdata59044.2023.10386219"},
+        {"en":"M. Fujita, A. Kitadai, K. Sumikura and N. Nishino; “Toward the Utilization of Artificial Intelligence in Life Sciences: A Voluntary Medical Data Provisioning Model,” <em>IEEE Big Data</em>, pp. 3250-3257, 2022.","url":"https://doi.org/10.1109/bigdata55660.2022.10020740"}
       ]
     },
     {
       titleEn: "Working Papers",
       titleJa: "ワーキングペーパー",
       entries: [
-        "Y. Hoshino, A. Kitadai and N. Nishino; “Do Matching Mechanisms Work with LLM Agents?,” arXiv:2606.03030, 2026.",
-        "A. Kitadai, S. Yoshimura, T. Nakashima, N. Torpo, R. Miratsu, N. Mizutani and N. Nishino; “‘Sail Fast, Then Wait’ in First-come, First-served Port Queues: Information Sharing for Sustainable Shipping,” arXiv:2602.01958, 2026. Under review.",
-        "A. Kitadai, T. Ito, Y. Nagoh, H. Takahashi, M. Fujita, S. Lee, F. Miyahara, T. Natsume and N. Nishino; “Decision Support System for Technology Opportunity Discovery: An Application of the Schwartz Theory of Basic Values,” arXiv:2602.11855, 2026. R&R at <em>Technology in Society</em>.",
+        {"en":"Y. Hoshino, A. Kitadai and N. Nishino; “Do Matching Mechanisms Work with LLM Agents?,” arXiv:2606.03030, 2026.","url":"https://doi.org/10.48550/arXiv.2606.03030"},
+        {"en":"A. Kitadai, S. Yoshimura, T. Nakashima, N. Torpo, R. Miratsu, N. Mizutani and N. Nishino; “‘Sail Fast, Then Wait’ in First-come, First-served Port Queues: Information Sharing for Sustainable Shipping,” arXiv:2602.01958, 2026. Under review.","url":"https://doi.org/10.48550/arXiv.2602.01958"},
+        {"en":"A. Kitadai, T. Ito, Y. Nagoh, H. Takahashi, M. Fujita, S. Lee, F. Miyahara, T. Natsume and N. Nishino; “Decision Support System for Technology Opportunity Discovery: An Application of the Schwartz Theory of Basic Values,” arXiv:2602.11855, 2026. R&R at <em>Technology in Society</em>.","url":"https://doi.org/10.48550/arXiv.2602.11855"},
         "T. Nakashima and A. Kitadai; “Adaptation Beliefs and Defensive Over-Adaptation under Nonlinear Climate Risk.” Under review.",
         "A. Kitadai, Y. Fukasawa and N. Nishino; “Do Rich Persona Data Improve the Calibration of LLM Agents to Human Behavior? Evidence from the Ultimatum Game.” Under review.",
         "A. Kitadai, Y. Nakamoto and N. Nishino; “Do Generative AI Chatbots Increase Dominant-Strategy Play in Matching Mechanisms?” Under review.",
@@ -100,9 +100,9 @@ export default {
       entries: [
         "A. Kitadai, S. Yoshimura, T. Nakashima, N. Torpo, R. Miratsu, N. Mizutani and N. Nishino; “‘Sail Fast, Then Wait’ in First-come, First-served Port Queues: Information Sharing for Sustainable Shipping,” GDN 2026, Katowice, Poland, June 2026.",
         "J. Zhang, A. Kitadai and N. Nishino; “The Dynamics of Coopetition: A Biform Game Analysis of Incentive Mechanisms in DevOps,” GDN 2026, Katowice, Poland, June 2026.",
-        "A. Kitadai, S. Yoshimura, T. Nakashima, N. Torpo, R. Miratsu, N. Mizutani and N. Nishino; “Information Asymmetry in FCFS Port Queues: A Game Theoretic Analysis of ‘Sail Fast, Then Wait’,” SMRC x MTEC/ICMASS 2026, Singapore, April 2026.",
+        "A. Kitadai, S. Yoshimura, T. Nakashima, N. Torpo, R. Miratsu, N. Mizutani and N. Nishino; “Information Asymmetry in FCFS Port Queues: A Game Theoretic Analysis of ‘Sail Fast, Then Wait’,” SMRC x MTEC/ICMASS 2026, Suntec Singapore Convention & Exhibition Centre, Singapore, April 23, 2026.",
         "S. Yoshimura, T. Kawasaki, A. Kitadai and N. Nishino; “Analysis of Optimal Ship Navigation in Offshore Waiting Situations,” International Conference of Serviceology 2025, Stockholm, Dec. 3, 2025.",
-        "H. Cheng, S. Lee, H. Watanabe, A. Kitadai, Y. Nagoh, M. Fujita and N. Nishino; “How Can Barriers to Innovation Diffusion and Transition Be Identified from Bibliometric Data?,” R&D Management Conference 2025, July 1, 2025.",
+        "H. Cheng, S. Lee, H. Watanabe, A. Kitadai, Y. Nagoh, M. Fujita and N. Nishino; “How Can Barriers to Innovation Diffusion and Transition Be Identified from Bibliometric Data?,” R&D Management Conference 2025, T6 - Seminario Arcivescovile, Pisa, Italy, July 1, 2025.",
         "A. Kitadai, T. Nakashima, Y. Tsurusaki, R. Miratsu, N. Mizutani and N. Nishino; “Can rich information decrease anchorage waiting time? A game-theoretic analysis toward sustainable shipping,” 34th European Conference on Operational Research, Leeds, UK, June 23, 2025.",
         "A. Kitadai, R. Ishikawa, S. Lee, J. Teng, K. Nishiyama and N. Nishino; “Consensus Formation in Physical, Virtual, and Interverse Spaces: Experimental Insights,” 25th International Conference on Group Decision and Negotiation, Zaragoza, Spain, June 16, 2025.",
         "H. Sawazaki, X. Shang, S. Lee, A. Kitadai and N. Nishino; “Tenant allocation in shopping malls based on deferred acceptance algorithm,” 18th CIRP International Conference on Intelligent Computation in Manufacturing Engineering, Naples, Italy, July 10, 2024.",
@@ -115,43 +115,45 @@ export default {
       entries: [
         {
           en: "N. Nishino, S. Lee and A. Kitadai; “Mechanism Design of Communication Environments in the Interverse: A Proposed Framework,” JIMA Fall Conference 2026, Arcrea Himeji, Himeji, October 25, 2026.",
+          url: "https://conferenceservice.jp/www/jima2026fall/program",
           ja: "西野成昭, 李相直, 北代絢大：「インターバースにおけるコミュニケーション環境のメカニズムデザイン：枠組みの提案」日本経営工学会2026年秋季大会, アクリエひめじ, 姫路, 2026年10月25日."
         },
         {
           en: "A. Kitadai and N. Nishino; “Analysis of Anchorage Waiting Using a First-Come, First-Served Queueing Game and the Potential for Mitigation through Information Sharing,” JIMA Fall Conference 2026, Arcrea Himeji, Himeji, October 24, 2026.",
+          url: "https://conferenceservice.jp/www/jima2026fall/program",
           ja: "北代絢大, 西野成昭：「先着順待ち行列ゲームによる沖待ち現象の分析と情報共有による緩和可能性」日本経営工学会2026年秋季大会, アクリエひめじ, 姫路, 2026年10月24日."
         },
         {
-          en: "A. Kitadai, Y. Kumagai and R. Yasunaga; “Bounded Rationality in Large Language Models: Price-Quality Heuristics and Self-Control,” JSAI 2026: The 40th Annual Conference of the Japanese Society for Artificial Intelligence, Gunma and online, June 2026.",
-          ja: "北代絢大, 熊谷雄介, 安永遼真：「大規模言語モデルにおける限定合理性：価格品質ヒューリスティックとセルフコントロール」2026年度人工知能学会全国大会（第40回）, Gメッセ群馬・オンライン, 2026年6月."
+          en: "A. Kitadai, Y. Kumagai and R. Yasunaga; “Bounded Rationality in Large Language Models: Price-Quality Heuristics and Self-Control,” JSAI 2026: The 40th Annual Conference of the Japanese Society for Artificial Intelligence, G Messe Gunma, Takasaki, Gunma, and online, June 9, 2026.",
+          ja: "北代絢大, 熊谷雄介, 安永遼真：「大規模言語モデルにおける限定合理性：価格品質ヒューリスティックとセルフコントロール」2026年度人工知能学会全国大会（第40回）, Gメッセ群馬（群馬県高崎市）・オンライン, 2026年6月9日."
         },
         {
-          en: "Y. Hoshino, A. Kitadai and N. Nishino; “Service Design for Proxy Negotiation Markets with AI Agents: Validating the Effectiveness of Matching Mechanisms,” JIMA Spring Conference 2026, Hakodate, Mar. 4, 2026.",
-          ja: "星野透大, 北代絢大, 西野成昭：「AIエージェントによる代理交渉市場のサービス設計：マッチングメカニズムの有効性検証」日本経営工学会2026年春季大会, 函館, 2026年3月4日."
+          en: "Y. Hoshino, A. Kitadai and N. Nishino; “Service Design for Proxy Negotiation Markets with AI Agents: Validating the Effectiveness of Matching Mechanisms,” JIMA Spring Conference 2026, Hakodate Salmon Marunami Hall (Hakodate Civic Hall), Hakodate, June 6, 2026.",
+          ja: "星野透大, 北代絢大, 西野成昭：「AIエージェントによる代理交渉市場のサービス設計：マッチングメカニズムの有効性検証」日本経営工学会2026年春季大会, 函館サーモン・まるなまホール（函館市民会館）, 函館, 2026年6月6日."
         },
         {
-          en: "Y. Takenoya, A. Kitadai and N. Nishino; “A Screening Model of Upfront Contracts for Agents Who Ignore Convex Inequalities,” JIMA Spring Conference 2026, Hakodate, June 2026.",
-          ja: "竹ノ谷悠, 北代絢大, 西野成昭：「凸不等式を無視するエージェントに対する事前契約のスクリーニングモデル」日本経営工学会2026年春季大会, 函館, 2026年6月."
+          en: "Y. Takenoya, A. Kitadai and N. Nishino; “A Screening Model of Upfront Contracts for Agents Who Ignore Convex Inequalities,” JIMA Spring Conference 2026, Hakodate Salmon Marunami Hall (Hakodate Civic Hall), Hakodate, June 6, 2026.",
+          ja: "竹ノ谷悠, 北代絢大, 西野成昭：「凸不等式を無視するエージェントに対する事前契約のスクリーニングモデル」日本経営工学会2026年春季大会, 函館サーモン・まるなまホール（函館市民会館）, 函館, 2026年6月6日."
         },
         {
-          en: "A. Kitadai and N. Nishino; “The Effect of Introducing a Free-Dialogue Chatbot for Supporting Understanding of Matching Mechanisms on People's Decision-Making,” JIMA Spring Conference 2026, Hakodate, June 2026.",
-          ja: "北代絢大, 西野成昭：「マッチングメカニズムへの理解補助用の自由対話型チャットボット導入が人々の意思決定に与える影響」日本経営工学会2026年春季大会, 函館, 2026年6月."
+          en: "A. Kitadai and N. Nishino; “The Effect of Introducing a Free-Dialogue Chatbot for Supporting Understanding of Matching Mechanisms on People's Decision-Making,” JIMA Spring Conference 2026, Hakodate Salmon Marunami Hall (Hakodate Civic Hall), Hakodate, June 7, 2026.",
+          ja: "北代絢大, 西野成昭：「マッチングメカニズムへの理解補助用の自由対話型チャットボット導入が人々の意思決定に与える影響」日本経営工学会2026年春季大会, 函館サーモン・まるなまホール（函館市民会館）, 函館, 2026年6月7日."
         },
         {
-          en: "A. Kitadai, Y. Nakamoto and N. Nishino; “Do Generative AI Chatbots Increase Dominant-Strategy Play in Matching Mechanisms?,” 29th Experimental Social Science Conference, Kochi, May 2026.",
-          ja: "北代絢大, 中元康裕, 西野成昭：「生成AIチャットボットはマッチングメカニズムにおける支配戦略プレイを増加させるか？」第29回実験社会科学カンファレンス, 高知, 2026年5月."
+          en: "A. Kitadai, Y. Nakamoto and N. Nishino; “Do Generative AI Chatbots Increase Dominant-Strategy Play in Matching Mechanisms?,” 29th Experimental Social Science Conference, Kochi University of Technology, Kochi, May 16, 2026.",
+          ja: "北代絢大, 中元康裕, 西野成昭：「生成AIチャットボットはマッチングメカニズムにおける支配戦略プレイを増加させるか？」第29回実験社会科学カンファレンス, 高知工科大学, 高知, 2026年5月16日."
         },
         {
-          en: "Y. Hoshino, A. Kitadai and N. Nishino; “Service Design for Proxy Negotiation Markets with AI Agents: Validating the Effectiveness of Matching Algorithms,” 14th Annual Conference of the Service Science Society of Japan, Mar. 2026.",
-          ja: "星野透大, 北代絢大, 西野成昭：「AIエージェントによる代理交渉市場のサービス設計 - マッチングアルゴリズムの有効性検証」サービス学会第14回国内大会, 2026年3月."
+          en: "Y. Hoshino, A. Kitadai and N. Nishino; “Service Design for Proxy Negotiation Markets with AI Agents: Validating the Effectiveness of Matching Algorithms,” 14th Annual Conference of the Service Science Society of Japan, Chiba University of Commerce Ichikawa Campus, Ichikawa, Chiba, Mar. 4, 2026.",
+          ja: "星野透大, 北代絢大, 西野成昭：「AIエージェントによる代理交渉市場のサービス設計 - マッチングアルゴリズムの有効性検証」サービス学会第14回国内大会, 千葉商科大学市川キャンパス（千葉県市川市）, 2026年3月4日."
         },
         {
-          en: "Y. Yoshida, A. Kitadai and N. Nishino; “Game-Theoretic Analysis of Dynamic Production Planning and Core Collection Strategies in Commercial Vehicle Remanufacturing,” 14th Annual Conference of the Service Science Society of Japan, Mar. 4, 2026.",
-          ja: "吉田有希, 北代絢大, 西野成昭：「商用車リマニュファクチャリングにおける動学的生産計画とコア回収戦略のゲーム理論的分析」サービス学会第14回国内大会, 2026年3月4日."
+          en: "Y. Yoshida, A. Kitadai and N. Nishino; “Game-Theoretic Analysis of Dynamic Production Planning and Core Collection Strategies in Commercial Vehicle Remanufacturing,” 14th Annual Conference of the Service Science Society of Japan, Chiba University of Commerce Ichikawa Campus, Ichikawa, Chiba, Mar. 4, 2026.",
+          ja: "吉田有希, 北代絢大, 西野成昭：「商用車リマニュファクチャリングにおける動学的生産計画とコア回収戦略のゲーム理論的分析」サービス学会第14回国内大会, 千葉商科大学市川キャンパス（千葉県市川市）, 2026年3月4日."
         },
         {
-          en: "S. Yoshimura, T. Kawasaki, A. Kitadai and N. Nishino; “Profitability of Slow Steaming Under Vessel Offshore Waiting Conditions,” 14th Annual Conference of the Service Science Society of Japan, Mar. 5, 2026.",
-          ja: "吉村駿汰, 川崎智也, 北代絢大, 西野成昭：「船舶の沖待ち発生時における低速航行の経済性に関する研究」サービス学会第14回国内大会, 2026年3月5日."
+          en: "S. Yoshimura, T. Kawasaki, A. Kitadai and N. Nishino; “Profitability of Slow Steaming Under Vessel Offshore Waiting Conditions,” 14th Annual Conference of the Service Science Society of Japan, Chiba University of Commerce Ichikawa Campus, Ichikawa, Chiba, Mar. 5, 2026.",
+          ja: "吉村駿汰, 川崎智也, 北代絢大, 西野成昭：「船舶の沖待ち発生時における低速航行の経済性に関する研究」サービス学会第14回国内大会, 千葉商科大学市川キャンパス（千葉県市川市）, 2026年3月5日."
         },
         {
           en: "Y. Yoshida, A. Kitadai and N. Nishino; “Environmental Impact of Remanufacturing in the Commercial Truck Industry,” JIMA Fall Conference 2025, Oct. 19, 2025.",
@@ -229,25 +231,30 @@ export default {
       entries: [
         {
           en: "Student Encouragement Award, 14th Annual Conference of the Service Science Society of Japan (2026): Y. Hoshino, A. Kitadai and N. Nishino, “Service Design for Proxy Negotiation Markets with AI Agents: Validating the Effectiveness of Matching Algorithms.”",
+          url: "http://ja.serviceology.org/introduction/award.html#domestic2026",
           ja: "サービス学会第14回国内大会 学生奨励賞 (2026)：星野透大, 北代絢大, 西野成昭「AIエージェントによる代理交渉市場のサービス設計：マッチングアルゴリズムの有効性検証」"
         },
-        "2026 GDN Springer Best Student Paper Award (2026)",
+
+        {"en":"2026 GDN Springer Best Student Paper Award (2026)","url":"https://www.t.u-tokyo.ac.jp/en/topics/tp2026-07-10-003"},
         {
           en: "Head of Department Award (Academic Achievement), Dept. of Technology Management for Innovation, Graduate School of Engineering, The University of Tokyo (2025)",
           ja: "東京大学 大学院工学系研究科 技術経営戦略学専攻 学修優秀賞 (2025)"
         },
-        "2024 GDN Springer Best Student Paper Award (2024)",
+        {"en":"2024 GDN Springer Best Student Paper Award (2024)","url":"https://www.t.u-tokyo.ac.jp/topics/tp2024-07-17-001"},
         {
           en: "Outstanding Conference Award and Arai Award, 12th Annual Conference of the Service Science Society of Japan (2024)",
+          url: "http://ja.serviceology.org/introduction/award.html#domestic2024",
           ja: "サービス学会第12回国内大会 大会優秀賞・新井賞 (2024)"
         },
         {
           en: "Poster Report Encouragement Award (General Division), Behavioral Economics Society (2023)",
+          url: "https://www.t.u-tokyo.ac.jp/topics/tp2024-02-22-001",
           ja: "行動経済学会ポスター報告奨励賞（一般部門） (2023)"
         },
-        "2023 GDN Springer Best Student Paper Award (2023)",
+        {"en":"2023 GDN Springer Best Student Paper Award (2023)","url":"https://www.t.u-tokyo.ac.jp/topics/tp2023-06-23-001"},
         {
           en: "Outstanding Conference Award, 11th Annual Conference of the Service Science Society of Japan (2023)",
+          url: "http://ja.serviceology.org/introduction/award.html#domestic2023",
           ja: "サービス学会第11回国内大会 大会優秀賞 (2023)"
         }
       ]
@@ -259,6 +266,7 @@ export default {
         // English title and session name are translations of the official Japanese program.
         {
           "en": "Ayato Kitadai, “Matching Mechanisms and AI,” FY2026 Second Online Research Seminar, Japan Industrial Management Association (JIMA), “Developments in Service Mechanism Design Research” (Service Division), online (Zoom), September 25, 2026 (invited).",
+          url: "https://conferenceservice.jp/www/jimaseminar/",
           "ja": "北代絢大「マッチングメカニズムとAI」日本経営工学会 令和8年度第二回オンライン研究セミナー「サービスメカニズムデザイン研究の展開」（サービス部門）, オンライン（Zoom）, 2026年9月25日（招待講演）.",
           "date": "2026-09-25",
           "invited": true,
@@ -268,49 +276,56 @@ export default {
         // English title and workshop name are translations of the Japanese program.
         {
           "en": "Ayato Kitadai, “Toward the Use of Simulation in Experimental Economics: AI Agents and Human Decision-Making,” RISS Data Creation Unit Workshop, Research Institute for Socionetwork Strategies (RISS), Kansai University, Multimedia Laboratory (6F), Senriyama Campus, Suita, Osaka, September 1, 2026 (invited).",
+          url: "https://www.kansai-u.ac.jp/riss/interworkshop/",
           "ja": "北代絢大「実験経済学におけるシミュレーション活用に向けて：AIエージェントと人間の意思決定」RISS データ創出ユニットワークショップ, 関西大学千里山キャンパス ソシオネットワーク戦略研究機構 6階マルチメディア・ラボ（大阪府吹田市）, 2026年9月1日（招待講演）.",
           "date": "2026-09-01",
           "time": "16:00-17:00 JST",
           "invited": true,
           "sourceUrl": "https://www.kansai-u.ac.jp/riss/interworkshop/"
         },
-        "A. Kitadai, Y. Nakamoto and N. Nishino; “Do Generative AI Chatbots Increase Dominant-Strategy Play in Matching Mechanisms?,” International Workshop on Human-AI Interaction, ISER, Osaka, March 24, 2026 (invited).",
-        "Y. Hoshino, A. Kitadai and N. Nishino; “Do Matching Mechanisms Work with LLM Agents?,” International Workshop on Human-AI Interaction, ISER, Osaka, March 23, 2026.",
+        {"en":"A. Kitadai, Y. Nakamoto and N. Nishino; “Do Generative AI Chatbots Increase Dominant-Strategy Play in Matching Mechanisms?,” International Workshop on Human-AI Interaction, ISER, Osaka, March 24, 2026 (invited).","url":"https://sites.google.com/iser.osaka-u.ac.jp/human-ai/home"},
+        {"en":"Y. Hoshino, A. Kitadai and N. Nishino; “Do Matching Mechanisms Work with LLM Agents?,” International Workshop on Human-AI Interaction, ISER, Osaka, March 23, 2026.","url":"https://sites.google.com/iser.osaka-u.ac.jp/human-ai/home"},
         {
           en: "Ayato Kitadai, “AI as Part of Mechanism Design: Evidence from Laboratory Experiments,” Behavioral and Experimental Economics Seminar (BEES), Waseda University, June 16, 2026.",
+          url: "https://sites.google.com/view/w-bees/home/",
           ja: "北代絢大「メカニズムデザインの一部としてのAI：実験室実験からのエビデンス」行動・実験経済学研究会（BEES）, 早稲田大学, 2026年6月16日."
         },
-        "Ayato Kitadai, “Exploring Various Methods for Generative Agents to Replicate Results in Economic Experiments of the Ultimatum Game,” HSE Comsoc seminar, DeCAn, February 12, 2026 (invited).",
+        {"en":"Ayato Kitadai, “Exploring Various Methods for Generative Agents to Replicate Results in Economic Experiments of the Ultimatum Game,” International Centre of Decision Choice and Analysis (DeCAn) seminar, HSE University, online (Moscow, Russia), February 12, 2026 (invited).","url":"https://www.hse.ru/en/DeCAn/announcements/1126840069.html"},
         {
           en: "A. Kitadai, Y. Nakamoto and N. Nishino; “Do Generative AI Chatbots Increase Dominant-Strategy Play in Matching Mechanisms?,” Kansai University RISS Workshop, February 28, 2026.",
+          url: "https://sites.google.com/view/rissws2026",
           ja: "北代絢大, 中元康裕, 西野成昭：「生成AIチャットボットはマッチングメカニズムにおける支配戦略プレイを増加させるか？」関西大学RISSワークショップ, 2026年2月28日."
         },
         {
           en: "Y. Hoshino, A. Kitadai and N. Nishino; “Do Matching Mechanisms Work with LLM Agents?,” Kansai University RISS Workshop, February 28, 2026.",
+          url: "https://sites.google.com/view/rissws2026",
           ja: "星野透大, 北代絢大, 西野成昭：「LLMエージェントでマッチングメカニズムは機能するか？」関西大学RISSワークショップ, 2026年2月28日."
         },
         {
           en: "Ayato Kitadai, “Substitutability of Human Behavior by LLM Agents: When and When Not to Use Silicon Sampling,” invited seminar, Analytical Marketing Research Division, Japan Marketing Science Association, October 7, 2025.",
-          ja: "北代絢大「LLMエージェントによる人間行動の代替可能性：Silicon Samplingを使うべきとき・使うべきでないとき」日本マーケティング・サイエンス学会 マーケティング・リサーチ研究部会 招待講演, 2025年10月7日."
+          ja: "北代絢大「LLMエージェントによる人間行動の代替可能性：シリコンサンプリングの使いどころと使うべきでないところ」日本マーケティング・サイエンス学会 マーケティング・リサーチ研究部会 招待講演, 2025年10月7日."
         },
         {
           en: "Ayato Kitadai, “AI-driven ‘Human-like’ Decision Making: Utilizing Insights and Data from Behavioral Economics,” Japan Association for Evolutionary Economics Online Lecture Series, July 19, 2025 (invited).",
+          url: "https://jafee.org/2025/07/05/%E3%80%90%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%AC%E3%82%AF%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E3%80%917%E6%9C%8819%E6%97%A520%E6%99%82/",
           ja: "北代絢大「AIによる『人間らしい』意思決定：行動経済学の知見とデータの活用」進化経済学会オンラインレクチャーシリーズ, 2025年7月19日."
         },
         {
           en: "Ayato Kitadai, “Comment on ‘Keizai Seminar’ August-September 2024 Issue,” Keizai Seminar December 2024 - January 2025 Issue.",
+          url: "https://note.com/keisemi/n/n8215fee14406",
           ja: "北代絢大「『経済セミナー』2024年8・9月号へのコメント」経済セミナー2024年12月・2025年1月号."
         },
         {
           en: "Ayato Kitadai, “Economic Experiments with AI as Subjects,” Joint Research Project Management Support Workshop (Kyoto Sangyo University), August 1, 2024 (invited).",
           ja: "北代絢大「AIを被験者とする経済実験」共同研究プロジェクト運営支援の研究会（京都産業大学 経済実験室）, 2024年8月1日（招待講演）."
         },
-        "Ayato Kitadai, “Exploring Various Methods for Generative Agents to Replicate Results in Economic Experiments of the Ultimatum Game,” 1st CEE-M Workshop on Artificial Intelligence in Research, Center for Environmental Economics - Montpellier (CEE-M), Faculty of Economics, Richter campus, Montpellier, France (Amphi 319), hybrid; online presentation, July 9, 2024 (invited).",
+        {"en":"Ayato Kitadai, “Exploring Various Methods for Generative Agents to Replicate Results in Economic Experiments of the Ultimatum Game,” 1st CEE-M Workshop on Artificial Intelligence in Research, Center for Environmental Economics - Montpellier (CEE-M), Faculty of Economics, Richter campus, Montpellier, France (Amphi 319), hybrid; online presentation, July 9, 2024 (invited).","url":"https://www.cee-m.fr/fr/workshop-sur-lintelligence-artificielle-dans-la-recherche-organise-par-le-cee-m/"},
         {
           en: "Ayato Kitadai, “Decision-making Analysis of Data Provision as a Public Goods Model,” 2nd Mechanism Synthesis Research Seminar, March 1, 2024 (invited).",
+          url: "https://www.t.u-tokyo.ac.jp/event/ev2024-02-13-001",
           ja: "北代絢大「公共財モデルとしてのデータ提供の意思決定分析」第2回メカニズムシンセシス研究セミナー, 2024年3月1日（招待講演）."
         },
-        "Ayato Kitadai, “Toward a Novel Methodology in Economic Experiments,” Waseda Game Theory and Experimental Economics Seminar, January 26, 2024 (invited)."
+        {"en":"Ayato Kitadai, “Toward a Novel Methodology in Economic Experiments,” Waseda Game Theory and Experimental Economics Seminar, January 26, 2024 (invited).","url":"https://funaki.w.waseda.jp/kenkyu2024.html"}
       ]
     }
   ]

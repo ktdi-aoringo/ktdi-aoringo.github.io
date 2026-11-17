@@ -70,7 +70,7 @@ const formatEntry = (entry, lang) =>
     escapeHtml(pick(entry, lang))
       .replaceAll("&lt;em&gt;", "<em>")
       .replaceAll("&lt;/em&gt;", "</em>")
-  );
+  ) + (entry.url ? ` <a href="${escapeHtml(entry.url)}" target="_blank" rel="noopener noreferrer">[LINK]</a>` : "");
 
 const renderList = (items, lang) =>
   `<ul>${items.map((item) => `<li>${formatEntry(item, lang)}</li>`).join("\n")}</ul>`;
@@ -286,10 +286,14 @@ const printPdf = async (htmlPath, pdfPath) => {
       "--disable-extensions",
       "--disable-gpu",
       "--disable-sync",
+      "--disable-crash-reporter",
+      "--disable-breakpad",
+      "--noerrdialogs",
+      "--disable-session-crashed-bubble",
       "--metrics-recording-only",
       "--no-first-run",
       "--no-default-browser-check",
-      `--user-data-dir=${resolve("/private/tmp", "kitadai-cv-chrome-profile")}`,
+      `--user-data-dir=${resolve("/private/tmp", `kitadai-cv-chrome-profile-${process.pid}`)}`,
       "--no-pdf-header-footer",
       "--print-to-pdf-no-header",
       `--print-to-pdf=${pdfPath}`,
