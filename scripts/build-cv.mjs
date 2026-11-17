@@ -4,6 +4,7 @@ import { existsSync } from "node:fs";
 import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import cv from "../data/cv.mjs";
+import { sortedEntries } from "./cv-sort.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const outDir = resolve(root, "dist");
@@ -256,7 +257,7 @@ const renderHtml = (lang) => {
       <section class="works-section">
         <h2>${escapeHtml(section[`title${lang === "en" ? "En" : "Ja"}`])} <span class="section-count">(${section.entries.length})</span></h2>
         <ol>
-          ${section.entries.map((entry) => `<li>${formatEntry(entry, lang)}</li>`).join("\n")}
+          ${sortedEntries(section).map((entry) => `<li>${formatEntry(entry, lang)}</li>`).join("\n")}
         </ol>
       </section>
     `).join("\n")}

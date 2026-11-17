@@ -61,23 +61,24 @@ export default {
   sections: [
     {
       titleEn: "Peer-Reviewed Publications",
+      sortBy: "publishedDate",
       titleJa: "査読付き学術論文",
       entries: [
-        {"en":"A. Kitadai, S.D.R. Lugo, Y. Tsurusaki, Y. Fukasawa and N. Nishino; “Can AI with High Reasoning Ability Replicate Human-like Decision Making in Economic Experiments?” <em>Group Decision and Negotiation</em>, 34(6), 1303-1326, 2025.","url":"https://doi.org/10.1007/s10726-025-09946-9"},
-        {"en":"H. Sawazaki, X. Shang, S. Lee, A. Kitadai and N. Nishino; “Tenant allocation in shopping malls based on deferred acceptance algorithm,” <em>Procedia CIRP</em>, 138, 3-8, 2026.","url":"https://doi.org/10.1016/j.procir.2026.01.002"},
-        {"en":"S. Yoshimura, T. Kawasaki, A. Kitadai and N. Nishino; “Profitability of Slow Steaming Under Vessel Offshore Waiting Conditions,” <em>IEEE Big Data</em>, pp. 5947-5953, 2025.","url":"https://doi.org/10.1109/bigdata66926.2025.11401857"},
-        {"en":"T. Nakashima, T. Oyama, R. Wada, A. Kitadai and N. Nishino; “A Transdisciplinary Approach to Cross-Sectoral Collaboration for Climate Change Adaptation: Bridging Synergies and Trade-Offs,” <em>Advances in Transdisciplinary Engineering</em>, 76, 428-437, 2025.","url":"https://doi.org/10.3233/atde251115"},
-        {"en":"A. Kitadai, S.D.R. Lugo and N. Nishino; “Matching Problems in Remanufactured Products for Product Service Systems in the Circular Economy,” <em>IFIP Advances in ICT</em>, 767, 246-257, 2025.","url":"https://doi.org/10.1007/978-3-032-03542-4_17"},
-        {"en":"S. Lee, A. Kitadai, Ye Cheng and N. Nishino; “Transformation of Many-to-One to One-to-One Matching Problems Through Replication,” <em>IFIP Advances in ICT</em>, 767, 287-301, 2025.","url":"https://doi.org/10.1007/978-3-032-03542-4_20"},
-        {"en":"A. Kitadai, K. Ogawa and N. Nishino; “Examining the Feasibility of Large Language Models as Survey Respondents,” <em>IEEE Big Data</em>, pp. 3858-3864, 2024.","url":"https://doi.org/10.1109/bigdata62323.2024.10825497"},
-        {"en":"Y. Takenoya, A. Kitadai and N. Nishino; “Accounting for Traffic Congestion: Heterogeneous Target Arrival Times, Uncertainty, and Monetary Incentives,” <em>IEEE Big Data</em>, pp. 3880-3888, 2024.","url":"https://doi.org/10.1109/bigdata62323.2024.10825629"},
-        {"en":"M. Kobayashi, A. Kitadai, U. Sato, M. Fujita and N. Nishino; “Real Traffic Analysis Around Large-Scale Shopping Mall Using Game Theory,” <em>IFIP Advances in ICT</em>, 730, 408-423, 2024.","url":"https://doi.org/10.1007/978-3-031-71629-4_28"},
-        {"en":"M. Fujita, Z. Cheng, S.D.R. Lugo, A. Kitadai, Y. Dai, Y. Fukasawa and N. Nishino; “Analysis of Medical Data and Machine-Learning Algorithms from the Perspective of Public-Goods Models of Data-Provision Decision Making,” <em>Procedia CIRP</em>, 126, 3-8, 2024.","url":"https://doi.org/10.1016/j.procir.2024.08.252"},
-        {"en":"M. Fujita, Y. Dai, A. Kitadai, S.D.R. Lugo, Z. Cheng and N. Nishino; “Survey on Stakeholder Cooperative Behavior for Designing Voluntary Medical Data Provision Motivation Mechanisms,” <em>Procedia CIRP</em>, 126, 14-19, 2024.","url":"https://doi.org/10.1016/j.procir.2024.08.254"},
-        {"en":"A. Kitadai, S.D.R. Lugo, S. Lee, M. Fujita and N. Nishino; “Weighted Reward Allocation Mechanism for Data Collection Quality,” <em>Lecture Notes in Business Information Processing (LNBIP)</em>, 478, 161-174, 2023.","url":"https://doi.org/10.1007/978-3-031-33780-2_11"},
-        {"en":"A. Kitadai, Y. Tsurusaki, Y. Fukasawa and N. Nishino; “Toward a Novel Methodology in Economic Experiments: Simulation of the Ultimatum Game with Large Language Models,” <em>IEEE Big Data</em>, pp. 3168-3175, 2023.","url":"https://doi.org/10.1109/bigdata59044.2023.10386678"},
-        {"en":"Z. Zhou, M. Kobayashi, U. Sato, K. Akashi, A. Kitadai, S. Sugihara, Y. Fukasawa, M. Fujita and N. Nishino; “Evaluating the alleviation of traffic congestion through Bus Rapid Transit using Multi-Agent Simulation,” <em>IEEE Big Data</em>, pp. 3237-3244, 2023.","url":"https://doi.org/10.1109/bigdata59044.2023.10386219"},
-        {"en":"M. Fujita, A. Kitadai, K. Sumikura and N. Nishino; “Toward the Utilization of Artificial Intelligence in Life Sciences: A Voluntary Medical Data Provisioning Model,” <em>IEEE Big Data</em>, pp. 3250-3257, 2022.","url":"https://doi.org/10.1109/bigdata55660.2022.10020740"}
+        {"en":"A. Kitadai, S.D.R. Lugo, Y. Tsurusaki, Y. Fukasawa and N. Nishino; “Can AI with High Reasoning Ability Replicate Human-like Decision Making in Economic Experiments?” <em>Group Decision and Negotiation</em>, 34(6), 1303-1326, 2025.","url":"https://doi.org/10.1007/s10726-025-09946-9","publishedDate":"2025-09"},
+        {"en":"H. Sawazaki, X. Shang, S. Lee, A. Kitadai and N. Nishino; “Tenant allocation in shopping malls based on deferred acceptance algorithm,” <em>Procedia CIRP</em>, 138, 3-8, 2026.","url":"https://doi.org/10.1016/j.procir.2026.01.002","publishedDate":"2026-01"},
+        {"en":"S. Yoshimura, T. Kawasaki, A. Kitadai and N. Nishino; “Profitability of Slow Steaming Under Vessel Offshore Waiting Conditions,” <em>IEEE Big Data</em>, pp. 5947-5953, 2025.","url":"https://doi.org/10.1109/bigdata66926.2025.11401857","publishedDate":"2025-12"},
+        {"en":"T. Nakashima, T. Oyama, R. Wada, A. Kitadai and N. Nishino; “A Transdisciplinary Approach to Cross-Sectoral Collaboration for Climate Change Adaptation: Bridging Synergies and Trade-Offs,” <em>Advances in Transdisciplinary Engineering</em>, 76, 428-437, 2025.","url":"https://doi.org/10.3233/atde251115","publishedDate":"2025-10"},
+        {"en":"A. Kitadai, S.D.R. Lugo and N. Nishino; “Matching Problems in Remanufactured Products for Product Service Systems in the Circular Economy,” <em>IFIP Advances in ICT</em>, 767, 246-257, 2025.","url":"https://doi.org/10.1007/978-3-032-03542-4_17","publishedDate":"2025-08"},
+        {"en":"S. Lee, A. Kitadai, Ye Cheng and N. Nishino; “Transformation of Many-to-One to One-to-One Matching Problems Through Replication,” <em>IFIP Advances in ICT</em>, 767, 287-301, 2025.","url":"https://doi.org/10.1007/978-3-032-03542-4_20","publishedDate":"2025-08"},
+        {"en":"A. Kitadai, K. Ogawa and N. Nishino; “Examining the Feasibility of Large Language Models as Survey Respondents,” <em>IEEE Big Data</em>, pp. 3858-3864, 2024.","url":"https://doi.org/10.1109/bigdata62323.2024.10825497","publishedDate":"2024-12"},
+        {"en":"Y. Takenoya, A. Kitadai and N. Nishino; “Accounting for Traffic Congestion: Heterogeneous Target Arrival Times, Uncertainty, and Monetary Incentives,” <em>IEEE Big Data</em>, pp. 3880-3888, 2024.","url":"https://doi.org/10.1109/bigdata62323.2024.10825629","publishedDate":"2024-12"},
+        {"en":"M. Kobayashi, A. Kitadai, U. Sato, M. Fujita and N. Nishino; “Real Traffic Analysis Around Large-Scale Shopping Mall Using Game Theory,” <em>IFIP Advances in ICT</em>, 730, 408-423, 2024.","url":"https://doi.org/10.1007/978-3-031-71629-4_28","publishedDate":"2024-09"},
+        {"en":"M. Fujita, Z. Cheng, S.D.R. Lugo, A. Kitadai, Y. Dai, Y. Fukasawa and N. Nishino; “Analysis of Medical Data and Machine-Learning Algorithms from the Perspective of Public-Goods Models of Data-Provision Decision Making,” <em>Procedia CIRP</em>, 126, 3-8, 2024.","url":"https://doi.org/10.1016/j.procir.2024.08.252","publishedDate":"2024-08"},
+        {"en":"M. Fujita, Y. Dai, A. Kitadai, S.D.R. Lugo, Z. Cheng and N. Nishino; “Survey on Stakeholder Cooperative Behavior for Designing Voluntary Medical Data Provision Motivation Mechanisms,” <em>Procedia CIRP</em>, 126, 14-19, 2024.","url":"https://doi.org/10.1016/j.procir.2024.08.254","publishedDate":"2024-08"},
+        {"en":"A. Kitadai, S.D.R. Lugo, S. Lee, M. Fujita and N. Nishino; “Weighted Reward Allocation Mechanism for Data Collection Quality,” <em>Lecture Notes in Business Information Processing (LNBIP)</em>, 478, 161-174, 2023.","url":"https://doi.org/10.1007/978-3-031-33780-2_11","publishedDate":"2023-05"},
+        {"en":"A. Kitadai, Y. Tsurusaki, Y. Fukasawa and N. Nishino; “Toward a Novel Methodology in Economic Experiments: Simulation of the Ultimatum Game with Large Language Models,” <em>IEEE Big Data</em>, pp. 3168-3175, 2023.","url":"https://doi.org/10.1109/bigdata59044.2023.10386678","publishedDate":"2023-12"},
+        {"en":"Z. Zhou, M. Kobayashi, U. Sato, K. Akashi, A. Kitadai, S. Sugihara, Y. Fukasawa, M. Fujita and N. Nishino; “Evaluating the alleviation of traffic congestion through Bus Rapid Transit using Multi-Agent Simulation,” <em>IEEE Big Data</em>, pp. 3237-3244, 2023.","url":"https://doi.org/10.1109/bigdata59044.2023.10386219","publishedDate":"2023-12"},
+        {"en":"M. Fujita, A. Kitadai, K. Sumikura and N. Nishino; “Toward the Utilization of Artificial Intelligence in Life Sciences: A Voluntary Medical Data Provisioning Model,” <em>IEEE Big Data</em>, pp. 3250-3257, 2022.","url":"https://doi.org/10.1109/bigdata55660.2022.10020740","publishedDate":"2022-12"}
       ]
     },
     {
@@ -230,9 +231,9 @@ export default {
       titleJa: "受賞",
       entries: [
         {
-          en: "Student Encouragement Award, 14th Annual Conference of the Service Science Society of Japan (2026): Y. Hoshino, A. Kitadai and N. Nishino, “Service Design for Proxy Negotiation Markets with AI Agents: Validating the Effectiveness of Matching Algorithms.”",
+          en: "Student Encouragement Award, 14th Annual Conference of the Service Science Society of Japan (2026)",
           url: "http://ja.serviceology.org/introduction/award.html#domestic2026",
-          ja: "サービス学会第14回国内大会 学生奨励賞 (2026)：星野透大, 北代絢大, 西野成昭「AIエージェントによる代理交渉市場のサービス設計：マッチングアルゴリズムの有効性検証」"
+          ja: "サービス学会第14回国内大会 学生奨励賞 (2026)"
         },
 
         {"en":"2026 GDN Springer Best Student Paper Award (2026)","url":"https://www.t.u-tokyo.ac.jp/en/topics/tp2026-07-10-003"},
