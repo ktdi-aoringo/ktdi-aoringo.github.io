@@ -1,5 +1,5 @@
 export default {
-  lastUpdated: "2026/11/17",
+  lastUpdated: "2026/11/19",
   profile: {
     nameJa: "北代絢大",
     nameEn: "Ayato Kitadai",
@@ -112,6 +112,7 @@ export default {
     },
     {
       titleEn: "Conference Presentations (Domestic, Oral)",
+      showLinks: false,
       titleJa: "国内会議発表（口頭）",
       entries: [
         {

@@ -66,12 +66,12 @@ const highlightName = (html) =>
     .replaceAll("Ayato Kitadai", "<strong>Ayato Kitadai</strong>")
     .replaceAll("北代絢大", "<strong>北代絢大</strong>");
 
-const formatEntry = (entry, lang) =>
+const formatEntry = (entry, lang, showLinks = true) =>
   highlightName(
     escapeHtml(pick(entry, lang))
       .replaceAll("&lt;em&gt;", "<em>")
       .replaceAll("&lt;/em&gt;", "</em>")
-  ) + (entry.url ? ` <a href="${escapeHtml(entry.url)}" target="_blank" rel="noopener noreferrer">[LINK]</a>` : "");
+  ) + (showLinks && entry.url ? ` <a href="${escapeHtml(entry.url)}" target="_blank" rel="noopener noreferrer">[LINK]</a>` : "");
 
 const renderList = (items, lang) =>
   `<ul>${items.map((item) => `<li>${formatEntry(item, lang)}</li>`).join("\n")}</ul>`;
@@ -257,7 +257,7 @@ const renderHtml = (lang) => {
       <section class="works-section">
         <h2>${escapeHtml(section[`title${lang === "en" ? "En" : "Ja"}`])} <span class="section-count">(${section.entries.length})</span></h2>
         <ol>
-          ${sortedEntries(section).map((entry) => `<li>${formatEntry(entry, lang)}</li>`).join("\n")}
+          ${sortedEntries(section).map((entry) => `<li>${formatEntry(entry, lang, section.showLinks !== false)}</li>`).join("\n")}
         </ol>
       </section>
     `).join("\n")}
