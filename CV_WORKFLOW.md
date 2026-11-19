@@ -11,7 +11,6 @@
 - `dist/cv-ja.html`: 生成された日本語HTML版CVです。
 - `dist/cv-ja.pdf`: 生成された日本語PDF版CVです。
 - `dist/cv.html`: 日本語HTML版CVのエイリアスです。
-- `dist/cv.pdf`: 日本語PDF版CVのエイリアスです。
 - `package.json`: `npm run build:cv` コマンドを定義しています。
 
 ## 基本的な使い方
@@ -82,7 +81,7 @@ CVのヘッダーには、所属・ホームページURLは表示しません。
 - 英語PDF: `dist/cv-en.pdf`
 - 日本語HTML: `dist/cv-ja.html`
 - 日本語PDF: `dist/cv-ja.pdf`
-- 日本語版エイリアス: `dist/cv.html`, `dist/cv.pdf`
+- 日本語HTML版エイリアス: `dist/cv.html`
 
 HTML版はブラウザで表示確認できます。PDF版は提出・共有用です。
 

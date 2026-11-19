@@ -330,11 +330,5 @@ for (const lang of ["en", "ja"]) {
 }
 
 await copyFile(resolve(outDir, "cv-ja.html"), resolve(outDir, "cv.html"));
-if (existsSync(resolve(outDir, "cv-ja.pdf"))) {
-  await copyFile(resolve(outDir, "cv-ja.pdf"), resolve(outDir, "cv.pdf"));
-}
 
 console.log(`Created ${resolve(outDir, "cv.html")} (Japanese alias)`);
-if (existsSync(resolve(outDir, "cv.pdf"))) {
-  console.log(`Created ${resolve(outDir, "cv.pdf")} (Japanese alias)`);
-}
